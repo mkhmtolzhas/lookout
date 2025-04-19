@@ -113,7 +113,7 @@ async def list_payments(
         raise HTTPException(status_code=400, detail=str(e))
     
 
-@router.get("/user/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[PaymentResponse])
+@router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[PaymentResponse])
 async def get_payment_by_fields(
     user_id: int,
     use_case: PaymentUseCase = Depends(get_payment_use_case),
