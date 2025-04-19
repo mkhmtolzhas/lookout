@@ -2,7 +2,7 @@ from contextlib import AbstractAsyncContextManager
 from typing import Callable, List, TypeVar, Type
 
 from sqlalchemy import select
-from src.schemas.user_schema import UserCreate, UserUpdate, UserResponse
+from src.schemas.user_schema import UserCreate, UserInDB, UserUpdate, UserResponse
 from src.utils.model_adapter import model_to_schema
 from src.models.user_model import UserModel
 from src.models.base_model import BaseModel
@@ -67,14 +67,14 @@ class UserRepository(Repository):
             users = result.scalars().all()
             return [model_to_schema(user, UserResponse) for user in users]
         
-    async def get_by_fields(self, **kwargs) -> UserResponse:
+    async def get_by_fields(self, **kwargs) -> UserInDB:
         """Retrieve a user by specific fields."""
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
             user = result.scalars().first()
             if user:
-                return model_to_schema(user, UserResponse)
+                return model_to_schema(user, UserInDB)
             return None
 
 

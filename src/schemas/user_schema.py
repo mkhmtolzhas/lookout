@@ -23,6 +23,10 @@ class UserUpdate(UserCreate):
 class UserResponse(UserBase, IDMixin, TimeMixin):
     username: str = Field(..., min_length=3, max_length=50, description="User's username")
     email: EmailStr = Field(..., description="User's email address")
-    password: str = Field(..., min_length=8, description="User's password")
     subscription_plan: str = Field(None, description="User's subscription plan")
     subscription_expiry: datetime = Field(None, description="User's subscription expiry date")
+
+
+class UserInDB(UserResponse):
+    password: str = Field(..., min_length=8, description="User's password")
+

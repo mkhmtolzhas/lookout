@@ -61,7 +61,10 @@ class UserUseCaseImpl(UserUseCase):
         return await self.repository.get(user_id)
     
     async def get_user_by_fields(self, **kwargs) -> Optional[UserResponse]:
-        return await self.repository.get_by_fields(**kwargs)
+        """Retrieve a user by specific fields."""
+        filtered_user = await self.repository.get_by_fields(**kwargs)
+
+        return UserResponse.model_validate(filtered_user.model_dump(exclude={"password"})) if filtered_user else None
 
     async def update_user(self, user_id: int, user: UserUpdate) -> UserResponse:
         return await self.repository.update(user_id, user)

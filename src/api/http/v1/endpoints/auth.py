@@ -1,14 +1,13 @@
 from authx import TokenPayload
-from fastapi import APIRouter, Depends, HTTPException, Response, Request
-from src.schemas.user_schema import UserCreate, UserLogin
-from src.schemas.responses.auth_response import RefreshResponse
+from fastapi import APIRouter, Depends, HTTPException, Request, Response
 from src.schemas.auth_schema import RefreshBody
+from src.schemas.user_schema import UserCreate, UserLogin, UserResponse
 from src.usecases.user_usecase import UserUseCase, get_user_use_case
 from src.api.http.dependencies import security
-from src.schemas.responses.auth_response import AuthResponse
+from src.schemas.responses.auth_response import AuthResponse, RefreshResponse
 
 
-router = APIRouter(prefix="/auth")
+router = APIRouter(prefix="/auth", tags=["auth"])
 
 @router.post("/login")
 async def login(
@@ -20,23 +19,35 @@ async def login(
         user = await use_case.login_user(user=user)
         if not user:
             raise HTTPException(status_code=400, detail="Invalid credentials")
+        
+        current_user = await use_case.get_user_by_fields(email=user.email)
 
         access_token = security.create_access_token(
             uid=user.email,
+            email=user.email,
+            username=current_user.username,
         )
 
         refresh_token = security.create_refresh_token(
             uid=user.email,
+            email=user.email,
+            username=current_user.username,
         )
 
         response.set_cookie(
             key="access_token_cookie",
             value=access_token,
+            httponly=True,
+            secure=True,
+            samesite="strict"
         )
 
         response.set_cookie(
             key="refresh_token_cookie",
             value=refresh_token,
+            httponly=True,
+            secure=True,
+            samesite="strict"
         )
 
         return AuthResponse(
@@ -63,19 +74,29 @@ async def register(
         
         access_token = security.create_access_token(
             uid=new_user.email,
+            email=new_user.email,
+            username=new_user.username,
         )
 
         refresh_token = security.create_refresh_token(
             uid=new_user.email,
+            email=new_user.email,
+            username=new_user.username,
         )
 
         response.set_cookie(
             key="access_token_cookie",
             value=access_token,
+            httponly=True,
+            secure=True,
+            samesite="strict"
         )
         response.set_cookie(
             key="refresh_token_cookie",
             value=refresh_token,
+            httponly=True,
+            secure=True,
+            samesite="strict"
         )
 
         return AuthResponse(
@@ -94,32 +115,62 @@ async def logout(
     User logout endpoint.
     """
     try:
-        response.delete_cookie(key="access_token")
-        response.delete_cookie(key="refresh_token")
+        response.delete_cookie(key="access_token_cookie")
+        response.delete_cookie(key="refresh_token_cookie")
         return {"message": "Logged out successfully"}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
     
 
-
 @router.post('/refresh')
-async def refresh(
-    refresh_payload: TokenPayload = Depends(security.refresh_token_required)
-):
-    access_token = security.create_access_token(
-        refresh_payload.sub,
-    )
-    return RefreshResponse(
-        access_token=access_token
-    )
-
-
-@router.get("/protected", dependencies=[Depends(security.access_token_required)])
-async def protected_route():
+async def refresh(request: Request, response: Response, refresh_data: RefreshBody = None):
     """
-    Protected route example.
+    Refresh endpoint - creates a new access token using a refresh token
+
+    Can accept the refresh token either:
+    1. In the Authorization header
+    2. In the request body as JSON
     """
     try:
-        return {"message": f"Hello, bro!"}
+        try:
+            refresh_payload = await security.refresh_token_required(request)
+        except Exception as header_error:
+            if not refresh_data or not refresh_data.refresh_token:
+                raise header_error
+
+            token = refresh_data.refresh_token
+            refresh_payload = security.verify_token(
+                token,
+                verify_type=True,
+                type="refresh"
+            )
+        access_token = security.create_access_token(refresh_payload.sub)
+
+        response.set_cookie(
+            key="access_token_cookie",
+            value=access_token,
+            httponly=True,
+            secure=True,
+            samesite="strict"
+        )
+        return {"access_token": access_token}
     except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        raise HTTPException(status_code=401, detail=str(e))
+
+
+@router.get('/info', response_model=UserResponse)
+async def get_user_info(
+    user: TokenPayload = Depends(security.access_token_required),
+    use_case: UserUseCase = Depends(get_user_use_case),
+):
+    """
+    Get user info endpoint - returns the user info from the access token
+    """
+    try:
+        user_info = await use_case.get_user_by_fields(email=user.sub)
+        if not user_info:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        return user_info
+    except Exception as e:
+        raise HTTPException(status_code=401, detail=str(e))
