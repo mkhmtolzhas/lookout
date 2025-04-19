@@ -114,7 +114,7 @@ async def list_videos(
         raise HTTPException(status_code=400, detail=str(e))
     
 
-@router.get("users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[VideoResponse])
+@router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[VideoResponse])
 async def get_video_by_user(
     user_id: int,
     use_case: VideoUseCase = Depends(get_video_use_case),

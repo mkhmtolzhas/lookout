@@ -9,7 +9,7 @@ class VideoBase(BaseModel):
     Base schema for video.
     """
     user_id: int = Field(..., description="ID of the user who uploaded the video")
-    file_url: FileUrl = Field(..., description="URL of the video file")
+    file_url: str = Field(..., description="URL of the video file")
 
     class Config:
         from_attributes = True
