@@ -67,15 +67,13 @@ class AnalysisResultRepository(Repository):
             analysis_results = result.scalars().all()
             return [model_to_schema(analysis_result, AnalysisResultResponse) for analysis_result in analysis_results]
     
-    async def get_by_fields(self, **kwargs) -> AnalysisResultResponse:
+    async def get_by_fields(self, **kwargs) -> List[AnalysisResultResponse]:
         """Retrieve an analysis result by specific fields."""
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
-            analysis_result = result.scalars().first()
-            if analysis_result:
-                return model_to_schema(analysis_result, AnalysisResultResponse)
-            return None
+            analysis_results = result.scalars().first()
+            return [model_to_schema(analysis_result, AnalysisResultResponse) for analysis_result in analysis_results]
         
 
 analysis_result_repository = AnalysisResultRepository(postgres.connection_pool_factory(), AnalysisResultModel)

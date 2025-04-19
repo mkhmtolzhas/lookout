@@ -1,0 +1,2915 @@
+2025-04-20 03:55:50,556 - INFO - Starting up the application...
+2025-04-20 03:55:50,563 - INFO - Application started up successfully.
+2025-04-20 03:56:00,557 - INFO - Request: GET http://127.0.0.1:8000/
+2025-04-20 03:56:00,558 - INFO - Response: 404
+2025-04-20 03:56:00,592 - INFO - Request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-20 03:56:00,592 - INFO - Response: 404
+2025-04-20 03:56:04,672 - INFO - Request: GET http://127.0.0.1:8000/docs
+2025-04-20 03:56:04,672 - INFO - Response: 200
+2025-04-20 03:56:04,740 - INFO - Request: GET http://127.0.0.1:8000/openapi.json
+2025-04-20 03:56:04,751 - INFO - Response: 200
+2025-04-20 03:57:09,615 - INFO - Shutting down the application...
+2025-04-20 03:57:09,619 - INFO - Disconnected from the database
+2025-04-20 03:57:09,619 - INFO - Application shut down successfully.
+2025-04-20 03:57:10,219 - INFO - Starting up the application...
+2025-04-20 03:57:10,228 - INFO - Application started up successfully.
+2025-04-20 03:57:49,497 - INFO - Request: GET http://127.0.0.1:8000/api/v1/auth/info
+2025-04-20 03:57:59,329 - INFO - Request: POST http://127.0.0.1:8000/api/v1/auth/refresh
+2025-04-20 03:57:59,330 - INFO - Response: 200
+2025-04-20 03:58:02,739 - INFO - Request: GET http://127.0.0.1:8000/api/v1/auth/info
+2025-04-20 03:58:02,750 - INFO - Response: 200
+2025-04-20 03:58:50,739 - INFO - Shutting down the application...
+2025-04-20 03:58:50,743 - INFO - Disconnected from the database
+2025-04-20 03:58:50,744 - INFO - Application shut down successfully.
+2025-04-20 03:59:37,089 - INFO - Starting up the application...
+2025-04-20 03:59:37,096 - INFO - Application started up successfully.
+2025-04-20 03:59:49,032 - INFO - Shutting down the application...
+2025-04-20 03:59:49,035 - INFO - Disconnected from the database
+2025-04-20 03:59:49,035 - INFO - Application shut down successfully.
+2025-04-20 03:59:49,640 - INFO - Starting up the application...
+2025-04-20 03:59:49,649 - INFO - Application started up successfully.
+2025-04-20 04:00:34,393 - INFO - Shutting down the application...
+2025-04-20 04:00:34,397 - INFO - Disconnected from the database
+2025-04-20 04:00:34,397 - INFO - Application shut down successfully.
+2025-04-20 04:00:35,008 - INFO - Starting up the application...
+2025-04-20 04:00:35,019 - INFO - Application started up successfully.
+2025-04-20 04:00:37,427 - INFO - Shutting down the application...
+2025-04-20 04:00:37,430 - INFO - Disconnected from the database
+2025-04-20 04:00:37,430 - INFO - Application shut down successfully.
+2025-04-20 04:00:41,265 - INFO - Starting up the application...
+2025-04-20 04:00:41,274 - INFO - Application started up successfully.
+2025-04-20 04:00:42,379 - INFO - Shutting down the application...
+2025-04-20 04:00:42,383 - INFO - Disconnected from the database
+2025-04-20 04:00:42,383 - INFO - Application shut down successfully.
+2025-04-20 04:00:43,027 - INFO - Starting up the application...
+2025-04-20 04:00:43,036 - INFO - Application started up successfully.
+2025-04-20 04:00:44,442 - INFO - Shutting down the application...
+2025-04-20 04:00:44,444 - INFO - Disconnected from the database
+2025-04-20 04:00:44,445 - INFO - Application shut down successfully.
+2025-04-20 04:00:45,058 - INFO - Starting up the application...
+2025-04-20 04:00:45,067 - INFO - Application started up successfully.
+2025-04-20 04:01:17,967 - INFO - Shutting down the application...
+2025-04-20 04:01:17,969 - INFO - Disconnected from the database
+2025-04-20 04:01:17,969 - INFO - Application shut down successfully.
+2025-04-20 04:01:21,130 - INFO - Starting up the application...
+2025-04-20 04:01:21,139 - INFO - Application started up successfully.
+2025-04-20 04:01:28,562 - INFO - Shutting down the application...
+2025-04-20 04:01:28,566 - INFO - Disconnected from the database
+2025-04-20 04:01:28,566 - INFO - Application shut down successfully.
+2025-04-20 04:04:18,333 - INFO - Starting up the application...
+2025-04-20 04:04:18,341 - INFO - Application started up successfully.
+2025-04-20 04:04:30,683 - INFO - Shutting down the application...
+2025-04-20 04:04:30,688 - INFO - Disconnected from the database
+2025-04-20 04:04:30,688 - INFO - Application shut down successfully.
+2025-04-20 04:04:31,304 - INFO - Starting up the application...
+2025-04-20 04:04:31,314 - INFO - Application started up successfully.
+2025-04-20 04:04:33,772 - INFO - Request: GET http://127.0.0.1:8000/docs
+2025-04-20 04:04:33,773 - INFO - Response: 200
+2025-04-20 04:04:33,842 - INFO - Request: GET http://127.0.0.1:8000/openapi.json
+2025-04-20 04:04:33,853 - INFO - Response: 200
+2025-04-20 04:05:01,329 - INFO - Request: POST http://127.0.0.1:8000/api/v1/video/s3/upload
+2025-04-20 04:05:03,806 - INFO - Response: 200
+2025-04-20 04:05:48,293 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:05:48,294 - INFO - Response: 200
+2025-04-20 04:08:28,103 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,104 - INFO - Response: 200
+2025-04-20 04:08:28,127 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,129 - INFO - Response: 200
+2025-04-20 04:08:28,145 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,145 - INFO - Response: 200
+2025-04-20 04:08:28,220 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,221 - INFO - Response: 200
+2025-04-20 04:08:28,232 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,232 - INFO - Response: 200
+2025-04-20 04:08:28,238 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,238 - INFO - Response: 200
+2025-04-20 04:08:28,250 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,251 - INFO - Response: 200
+2025-04-20 04:08:28,258 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,259 - INFO - Response: 200
+2025-04-20 04:08:28,267 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,268 - INFO - Response: 200
+2025-04-20 04:08:28,268 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,269 - INFO - Response: 200
+2025-04-20 04:08:28,269 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,271 - INFO - Response: 200
+2025-04-20 04:08:28,285 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,287 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,287 - INFO - Response: 200
+2025-04-20 04:08:28,287 - INFO - Response: 200
+2025-04-20 04:08:28,288 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,288 - INFO - Response: 200
+2025-04-20 04:08:28,289 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,289 - INFO - Response: 200
+2025-04-20 04:08:28,291 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,292 - INFO - Response: 200
+2025-04-20 04:08:28,293 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,293 - INFO - Response: 200
+2025-04-20 04:08:28,294 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,294 - INFO - Response: 200
+2025-04-20 04:08:28,301 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,301 - INFO - Response: 200
+2025-04-20 04:08:28,303 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,303 - INFO - Response: 200
+2025-04-20 04:08:28,846 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,846 - INFO - Response: 200
+2025-04-20 04:08:28,904 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,904 - INFO - Response: 200
+2025-04-20 04:08:28,916 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:28,916 - INFO - Response: 200
+2025-04-20 04:08:29,050 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,051 - INFO - Response: 200
+2025-04-20 04:08:29,090 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,091 - INFO - Response: 200
+2025-04-20 04:08:29,126 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,127 - INFO - Response: 200
+2025-04-20 04:08:29,134 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,134 - INFO - Response: 200
+2025-04-20 04:08:29,176 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,176 - INFO - Response: 200
+2025-04-20 04:08:29,313 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,314 - INFO - Response: 200
+2025-04-20 04:08:29,350 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,351 - INFO - Response: 200
+2025-04-20 04:08:29,368 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,369 - INFO - Response: 200
+2025-04-20 04:08:29,422 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,423 - INFO - Response: 200
+2025-04-20 04:08:29,438 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,439 - INFO - Response: 200
+2025-04-20 04:08:29,444 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,445 - INFO - Response: 200
+2025-04-20 04:08:29,486 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,486 - INFO - Response: 200
+2025-04-20 04:08:29,636 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,637 - INFO - Response: 200
+2025-04-20 04:08:29,657 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,658 - INFO - Response: 200
+2025-04-20 04:08:29,663 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,663 - INFO - Response: 200
+2025-04-20 04:08:29,698 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,698 - INFO - Response: 200
+2025-04-20 04:08:29,712 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,712 - INFO - Response: 200
+2025-04-20 04:08:29,731 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,731 - INFO - Response: 200
+2025-04-20 04:08:29,746 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,747 - INFO - Response: 200
+2025-04-20 04:08:29,839 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,839 - INFO - Response: 200
+2025-04-20 04:08:29,849 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,849 - INFO - Response: 200
+2025-04-20 04:08:29,948 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,948 - INFO - Response: 200
+2025-04-20 04:08:29,967 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,968 - INFO - Response: 200
+2025-04-20 04:08:29,982 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:29,983 - INFO - Response: 200
+2025-04-20 04:08:30,044 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,045 - INFO - Response: 200
+2025-04-20 04:08:30,077 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,077 - INFO - Response: 200
+2025-04-20 04:08:30,194 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,194 - INFO - Response: 200
+2025-04-20 04:08:30,205 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,205 - INFO - Response: 200
+2025-04-20 04:08:30,213 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,213 - INFO - Response: 200
+2025-04-20 04:08:30,267 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,267 - INFO - Response: 200
+2025-04-20 04:08:30,393 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,394 - INFO - Response: 200
+2025-04-20 04:08:30,417 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,418 - INFO - Response: 200
+2025-04-20 04:08:30,422 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,422 - INFO - Response: 200
+2025-04-20 04:08:30,493 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,494 - INFO - Response: 200
+2025-04-20 04:08:30,530 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,530 - INFO - Response: 200
+2025-04-20 04:08:30,585 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,586 - INFO - Response: 200
+2025-04-20 04:08:30,674 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,675 - INFO - Response: 200
+2025-04-20 04:08:30,730 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,731 - INFO - Response: 200
+2025-04-20 04:08:30,749 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,749 - INFO - Response: 200
+2025-04-20 04:08:30,750 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,751 - INFO - Response: 200
+2025-04-20 04:08:30,790 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,791 - INFO - Response: 200
+2025-04-20 04:08:30,795 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,795 - INFO - Response: 200
+2025-04-20 04:08:30,992 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:30,993 - INFO - Response: 200
+2025-04-20 04:08:31,086 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,086 - INFO - Response: 200
+2025-04-20 04:08:31,095 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,096 - INFO - Response: 200
+2025-04-20 04:08:31,096 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,097 - INFO - Response: 200
+2025-04-20 04:08:31,114 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,114 - INFO - Response: 200
+2025-04-20 04:08:31,151 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,151 - INFO - Response: 200
+2025-04-20 04:08:31,232 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,232 - INFO - Response: 200
+2025-04-20 04:08:31,425 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,426 - INFO - Response: 200
+2025-04-20 04:08:31,475 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,475 - INFO - Response: 200
+2025-04-20 04:08:31,540 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,541 - INFO - Response: 200
+2025-04-20 04:08:31,611 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,612 - INFO - Response: 200
+2025-04-20 04:08:31,640 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,640 - INFO - Response: 200
+2025-04-20 04:08:31,642 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,642 - INFO - Response: 200
+2025-04-20 04:08:31,665 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,666 - INFO - Response: 200
+2025-04-20 04:08:31,670 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,671 - INFO - Response: 200
+2025-04-20 04:08:31,708 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,709 - INFO - Response: 200
+2025-04-20 04:08:31,717 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,717 - INFO - Response: 200
+2025-04-20 04:08:31,737 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,738 - INFO - Response: 200
+2025-04-20 04:08:31,821 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,821 - INFO - Response: 200
+2025-04-20 04:08:31,823 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,823 - INFO - Response: 200
+2025-04-20 04:08:31,831 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,831 - INFO - Response: 200
+2025-04-20 04:08:31,901 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,901 - INFO - Response: 200
+2025-04-20 04:08:31,923 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,924 - INFO - Response: 200
+2025-04-20 04:08:31,970 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:31,970 - INFO - Response: 200
+2025-04-20 04:08:32,130 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,131 - INFO - Response: 200
+2025-04-20 04:08:32,190 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,190 - INFO - Response: 200
+2025-04-20 04:08:32,287 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,292 - INFO - Response: 200
+2025-04-20 04:08:32,379 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,380 - INFO - Response: 200
+2025-04-20 04:08:32,401 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,401 - INFO - Response: 200
+2025-04-20 04:08:32,546 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,546 - INFO - Response: 200
+2025-04-20 04:08:32,569 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,569 - INFO - Response: 200
+2025-04-20 04:08:32,611 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,611 - INFO - Response: 200
+2025-04-20 04:08:32,634 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,634 - INFO - Response: 200
+2025-04-20 04:08:32,636 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,637 - INFO - Response: 200
+2025-04-20 04:08:32,700 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,700 - INFO - Response: 200
+2025-04-20 04:08:32,745 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,745 - INFO - Response: 200
+2025-04-20 04:08:32,800 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,800 - INFO - Response: 200
+2025-04-20 04:08:32,827 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,827 - INFO - Response: 200
+2025-04-20 04:08:32,838 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,839 - INFO - Response: 200
+2025-04-20 04:08:32,876 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,876 - INFO - Response: 200
+2025-04-20 04:08:32,913 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,913 - INFO - Response: 200
+2025-04-20 04:08:32,914 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,915 - INFO - Response: 200
+2025-04-20 04:08:32,934 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,935 - INFO - Response: 200
+2025-04-20 04:08:32,983 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:32,983 - INFO - Response: 200
+2025-04-20 04:08:33,178 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,178 - INFO - Response: 200
+2025-04-20 04:08:33,263 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,263 - INFO - Response: 200
+2025-04-20 04:08:33,288 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,289 - INFO - Response: 200
+2025-04-20 04:08:33,325 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,325 - INFO - Response: 200
+2025-04-20 04:08:33,430 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,431 - INFO - Response: 200
+2025-04-20 04:08:33,443 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,443 - INFO - Response: 200
+2025-04-20 04:08:33,475 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,475 - INFO - Response: 200
+2025-04-20 04:08:33,594 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,594 - INFO - Response: 200
+2025-04-20 04:08:33,609 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,610 - INFO - Response: 200
+2025-04-20 04:08:33,653 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,653 - INFO - Response: 200
+2025-04-20 04:08:33,695 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,696 - INFO - Response: 200
+2025-04-20 04:08:33,730 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,731 - INFO - Response: 200
+2025-04-20 04:08:33,771 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,771 - INFO - Response: 200
+2025-04-20 04:08:33,783 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,783 - INFO - Response: 200
+2025-04-20 04:08:33,858 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:33,859 - INFO - Response: 200
+2025-04-20 04:08:34,066 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,066 - INFO - Response: 200
+2025-04-20 04:08:34,124 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,125 - INFO - Response: 200
+2025-04-20 04:08:34,189 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,189 - INFO - Response: 200
+2025-04-20 04:08:34,203 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,203 - INFO - Response: 200
+2025-04-20 04:08:34,209 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,209 - INFO - Response: 200
+2025-04-20 04:08:34,288 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,288 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,289 - INFO - Response: 200
+2025-04-20 04:08:34,289 - INFO - Response: 200
+2025-04-20 04:08:34,294 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,294 - INFO - Response: 200
+2025-04-20 04:08:34,322 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,323 - INFO - Response: 200
+2025-04-20 04:08:34,352 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,352 - INFO - Response: 200
+2025-04-20 04:08:34,384 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,385 - INFO - Response: 200
+2025-04-20 04:08:34,399 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,400 - INFO - Response: 200
+2025-04-20 04:08:34,406 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,406 - INFO - Response: 200
+2025-04-20 04:08:34,555 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,555 - INFO - Response: 200
+2025-04-20 04:08:34,581 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,582 - INFO - Response: 200
+2025-04-20 04:08:34,638 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,638 - INFO - Response: 200
+2025-04-20 04:08:34,741 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,742 - INFO - Response: 200
+2025-04-20 04:08:34,789 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,790 - INFO - Response: 200
+2025-04-20 04:08:34,804 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,804 - INFO - Response: 200
+2025-04-20 04:08:34,819 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,819 - INFO - Response: 200
+2025-04-20 04:08:34,852 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,852 - INFO - Response: 200
+2025-04-20 04:08:34,940 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:34,940 - INFO - Response: 200
+2025-04-20 04:08:35,034 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,034 - INFO - Response: 200
+2025-04-20 04:08:35,094 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,094 - INFO - Response: 200
+2025-04-20 04:08:35,145 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,145 - INFO - Response: 200
+2025-04-20 04:08:35,166 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,166 - INFO - Response: 200
+2025-04-20 04:08:35,179 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,179 - INFO - Response: 200
+2025-04-20 04:08:35,279 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,280 - INFO - Response: 200
+2025-04-20 04:08:35,388 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,389 - INFO - Response: 200
+2025-04-20 04:08:35,405 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,406 - INFO - Response: 200
+2025-04-20 04:08:35,432 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,432 - INFO - Response: 200
+2025-04-20 04:08:35,448 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,449 - INFO - Response: 200
+2025-04-20 04:08:35,494 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,494 - INFO - Response: 200
+2025-04-20 04:08:35,528 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,529 - INFO - Response: 200
+2025-04-20 04:08:35,560 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,561 - INFO - Response: 200
+2025-04-20 04:08:35,607 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,607 - INFO - Response: 200
+2025-04-20 04:08:35,643 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,644 - INFO - Response: 200
+2025-04-20 04:08:35,745 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,745 - INFO - Response: 200
+2025-04-20 04:08:35,877 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,878 - INFO - Response: 200
+2025-04-20 04:08:35,910 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,910 - INFO - Response: 200
+2025-04-20 04:08:35,925 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:35,926 - INFO - Response: 200
+2025-04-20 04:08:36,029 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,029 - INFO - Response: 200
+2025-04-20 04:08:36,044 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,045 - INFO - Response: 200
+2025-04-20 04:08:36,121 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,122 - INFO - Response: 200
+2025-04-20 04:08:36,138 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,138 - INFO - Response: 200
+2025-04-20 04:08:36,276 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,276 - INFO - Response: 200
+2025-04-20 04:08:36,279 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,279 - INFO - Response: 200
+2025-04-20 04:08:36,282 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,283 - INFO - Response: 200
+2025-04-20 04:08:36,286 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,287 - INFO - Response: 200
+2025-04-20 04:08:36,303 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,303 - INFO - Response: 200
+2025-04-20 04:08:36,405 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,405 - INFO - Response: 200
+2025-04-20 04:08:36,449 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,450 - INFO - Response: 200
+2025-04-20 04:08:36,635 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,636 - INFO - Response: 200
+2025-04-20 04:08:36,662 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,663 - INFO - Response: 200
+2025-04-20 04:08:36,677 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,677 - INFO - Response: 200
+2025-04-20 04:08:36,720 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,721 - INFO - Response: 200
+2025-04-20 04:08:36,730 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,731 - INFO - Response: 200
+2025-04-20 04:08:36,803 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,803 - INFO - Response: 200
+2025-04-20 04:08:36,833 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,834 - INFO - Response: 200
+2025-04-20 04:08:36,881 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,881 - INFO - Response: 200
+2025-04-20 04:08:36,909 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,909 - INFO - Response: 200
+2025-04-20 04:08:36,933 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:36,934 - INFO - Response: 200
+2025-04-20 04:08:37,056 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,057 - INFO - Response: 200
+2025-04-20 04:08:37,109 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,110 - INFO - Response: 200
+2025-04-20 04:08:37,136 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,137 - INFO - Response: 200
+2025-04-20 04:08:37,225 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,225 - INFO - Response: 200
+2025-04-20 04:08:37,242 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,243 - INFO - Response: 200
+2025-04-20 04:08:37,385 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,385 - INFO - Response: 200
+2025-04-20 04:08:37,503 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,504 - INFO - Response: 200
+2025-04-20 04:08:37,538 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,539 - INFO - Response: 200
+2025-04-20 04:08:37,544 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,544 - INFO - Response: 200
+2025-04-20 04:08:37,596 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,596 - INFO - Response: 200
+2025-04-20 04:08:37,608 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,609 - INFO - Response: 200
+2025-04-20 04:08:37,629 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,629 - INFO - Response: 200
+2025-04-20 04:08:37,632 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,632 - INFO - Response: 200
+2025-04-20 04:08:37,641 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,641 - INFO - Response: 200
+2025-04-20 04:08:37,684 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,685 - INFO - Response: 200
+2025-04-20 04:08:37,710 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,710 - INFO - Response: 200
+2025-04-20 04:08:37,721 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,721 - INFO - Response: 200
+2025-04-20 04:08:37,731 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,731 - INFO - Response: 200
+2025-04-20 04:08:37,769 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,769 - INFO - Response: 200
+2025-04-20 04:08:37,843 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:37,843 - INFO - Response: 200
+2025-04-20 04:08:38,083 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,083 - INFO - Response: 200
+2025-04-20 04:08:38,121 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,122 - INFO - Response: 200
+2025-04-20 04:08:38,188 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,189 - INFO - Response: 200
+2025-04-20 04:08:38,337 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,337 - INFO - Response: 200
+2025-04-20 04:08:38,348 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,348 - INFO - Response: 200
+2025-04-20 04:08:38,388 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,388 - INFO - Response: 200
+2025-04-20 04:08:38,420 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,420 - INFO - Response: 200
+2025-04-20 04:08:38,442 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,443 - INFO - Response: 200
+2025-04-20 04:08:38,520 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,520 - INFO - Response: 200
+2025-04-20 04:08:38,524 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,525 - INFO - Response: 200
+2025-04-20 04:08:38,594 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,595 - INFO - Response: 200
+2025-04-20 04:08:38,598 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,599 - INFO - Response: 200
+2025-04-20 04:08:38,757 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,757 - INFO - Response: 200
+2025-04-20 04:08:38,834 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,834 - INFO - Response: 200
+2025-04-20 04:08:38,843 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,843 - INFO - Response: 200
+2025-04-20 04:08:38,942 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,943 - INFO - Response: 200
+2025-04-20 04:08:38,960 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,961 - INFO - Response: 200
+2025-04-20 04:08:38,962 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:38,962 - INFO - Response: 200
+2025-04-20 04:08:39,002 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,002 - INFO - Response: 200
+2025-04-20 04:08:39,003 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,003 - INFO - Response: 200
+2025-04-20 04:08:39,009 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,009 - INFO - Response: 200
+2025-04-20 04:08:39,091 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,091 - INFO - Response: 200
+2025-04-20 04:08:39,133 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,133 - INFO - Response: 200
+2025-04-20 04:08:39,138 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,138 - INFO - Response: 200
+2025-04-20 04:08:39,186 - INFO - Request: POST http://127.0.0.1:8000/api/v1/video/s3/upload
+2025-04-20 04:08:39,359 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,359 - INFO - Response: 200
+2025-04-20 04:08:39,402 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,402 - INFO - Response: 200
+2025-04-20 04:08:39,419 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,419 - INFO - Response: 200
+2025-04-20 04:08:39,593 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,594 - INFO - Response: 200
+2025-04-20 04:08:39,634 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,635 - INFO - Response: 200
+2025-04-20 04:08:39,666 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,667 - INFO - Response: 200
+2025-04-20 04:08:39,724 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,724 - INFO - Response: 200
+2025-04-20 04:08:39,769 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,769 - INFO - Response: 200
+2025-04-20 04:08:39,786 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,787 - INFO - Response: 200
+2025-04-20 04:08:39,838 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,839 - INFO - Response: 200
+2025-04-20 04:08:39,867 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,868 - INFO - Response: 200
+2025-04-20 04:08:39,957 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,958 - INFO - Response: 200
+2025-04-20 04:08:39,996 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:39,997 - INFO - Response: 200
+2025-04-20 04:08:40,019 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,020 - INFO - Response: 200
+2025-04-20 04:08:40,193 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,194 - INFO - Response: 200
+2025-04-20 04:08:40,285 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,286 - INFO - Response: 200
+2025-04-20 04:08:40,299 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,300 - INFO - Response: 200
+2025-04-20 04:08:40,372 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,372 - INFO - Response: 200
+2025-04-20 04:08:40,401 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,401 - INFO - Response: 200
+2025-04-20 04:08:40,449 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,449 - INFO - Response: 200
+2025-04-20 04:08:40,468 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,468 - INFO - Response: 200
+2025-04-20 04:08:40,478 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,479 - INFO - Response: 200
+2025-04-20 04:08:40,481 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,481 - INFO - Response: 200
+2025-04-20 04:08:40,519 - INFO - Response: 200
+2025-04-20 04:08:40,525 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,525 - INFO - Response: 200
+2025-04-20 04:08:40,563 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,563 - INFO - Response: 200
+2025-04-20 04:08:40,589 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,589 - INFO - Response: 200
+2025-04-20 04:08:40,590 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,590 - INFO - Response: 200
+2025-04-20 04:08:40,604 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,604 - INFO - Response: 200
+2025-04-20 04:08:40,609 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,609 - INFO - Response: 200
+2025-04-20 04:08:40,806 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,807 - INFO - Response: 200
+2025-04-20 04:08:40,852 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,852 - INFO - Response: 200
+2025-04-20 04:08:40,907 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,908 - INFO - Response: 200
+2025-04-20 04:08:40,916 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,917 - INFO - Response: 200
+2025-04-20 04:08:40,954 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:40,955 - INFO - Response: 200
+2025-04-20 04:08:41,078 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,078 - INFO - Response: 200
+2025-04-20 04:08:41,079 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,079 - INFO - Response: 200
+2025-04-20 04:08:41,108 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,109 - INFO - Response: 200
+2025-04-20 04:08:41,150 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,150 - INFO - Response: 200
+2025-04-20 04:08:41,323 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,323 - INFO - Response: 200
+2025-04-20 04:08:41,351 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,351 - INFO - Response: 200
+2025-04-20 04:08:41,514 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,514 - INFO - Response: 200
+2025-04-20 04:08:41,539 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,540 - INFO - Response: 200
+2025-04-20 04:08:41,553 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,554 - INFO - Response: 200
+2025-04-20 04:08:41,587 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,588 - INFO - Response: 200
+2025-04-20 04:08:41,601 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,602 - INFO - Response: 200
+2025-04-20 04:08:41,608 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,608 - INFO - Response: 200
+2025-04-20 04:08:41,640 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,640 - INFO - Response: 200
+2025-04-20 04:08:41,643 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,643 - INFO - Response: 200
+2025-04-20 04:08:41,673 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,673 - INFO - Response: 200
+2025-04-20 04:08:41,741 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,741 - INFO - Response: 200
+2025-04-20 04:08:41,758 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,758 - INFO - Response: 200
+2025-04-20 04:08:41,852 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,852 - INFO - Response: 200
+2025-04-20 04:08:41,944 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,945 - INFO - Response: 200
+2025-04-20 04:08:41,966 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:41,967 - INFO - Response: 200
+2025-04-20 04:08:42,044 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,044 - INFO - Response: 200
+2025-04-20 04:08:42,082 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,082 - INFO - Response: 200
+2025-04-20 04:08:42,099 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,100 - INFO - Response: 200
+2025-04-20 04:08:42,173 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,174 - INFO - Response: 200
+2025-04-20 04:08:42,243 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,244 - INFO - Response: 200
+2025-04-20 04:08:42,253 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,253 - INFO - Response: 200
+2025-04-20 04:08:42,262 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,263 - INFO - Response: 200
+2025-04-20 04:08:42,270 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,270 - INFO - Response: 200
+2025-04-20 04:08:42,274 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,274 - INFO - Response: 200
+2025-04-20 04:08:42,426 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,426 - INFO - Response: 200
+2025-04-20 04:08:42,461 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,461 - INFO - Response: 200
+2025-04-20 04:08:42,527 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,527 - INFO - Response: 200
+2025-04-20 04:08:42,558 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,559 - INFO - Response: 200
+2025-04-20 04:08:42,680 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,681 - INFO - Response: 200
+2025-04-20 04:08:42,732 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,732 - INFO - Response: 200
+2025-04-20 04:08:42,755 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,756 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,756 - INFO - Response: 200
+2025-04-20 04:08:42,757 - INFO - Response: 200
+2025-04-20 04:08:42,811 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,812 - INFO - Response: 200
+2025-04-20 04:08:42,912 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,912 - INFO - Response: 200
+2025-04-20 04:08:42,931 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,931 - INFO - Response: 200
+2025-04-20 04:08:42,958 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:42,959 - INFO - Response: 200
+2025-04-20 04:08:43,041 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,042 - INFO - Response: 200
+2025-04-20 04:08:43,052 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,053 - INFO - Response: 200
+2025-04-20 04:08:43,069 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,070 - INFO - Response: 200
+2025-04-20 04:08:43,071 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,071 - INFO - Response: 200
+2025-04-20 04:08:43,209 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,210 - INFO - Response: 200
+2025-04-20 04:08:43,317 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,318 - INFO - Response: 200
+2025-04-20 04:08:43,320 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,321 - INFO - Response: 200
+2025-04-20 04:08:43,385 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,385 - INFO - Response: 200
+2025-04-20 04:08:43,578 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,578 - INFO - Response: 200
+2025-04-20 04:08:43,655 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,656 - INFO - Response: 200
+2025-04-20 04:08:43,667 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,668 - INFO - Response: 200
+2025-04-20 04:08:43,719 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,720 - INFO - Response: 200
+2025-04-20 04:08:43,733 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,733 - INFO - Response: 200
+2025-04-20 04:08:43,765 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,766 - INFO - Response: 200
+2025-04-20 04:08:43,784 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,784 - INFO - Response: 200
+2025-04-20 04:08:43,870 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,870 - INFO - Response: 200
+2025-04-20 04:08:43,898 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,898 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,899 - INFO - Response: 200
+2025-04-20 04:08:43,899 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,899 - INFO - Response: 200
+2025-04-20 04:08:43,900 - INFO - Response: 200
+2025-04-20 04:08:43,906 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:43,907 - INFO - Response: 200
+2025-04-20 04:08:44,131 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,131 - INFO - Response: 200
+2025-04-20 04:08:44,212 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,212 - INFO - Response: 200
+2025-04-20 04:08:44,214 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,214 - INFO - Response: 200
+2025-04-20 04:08:44,215 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,215 - INFO - Response: 200
+2025-04-20 04:08:44,235 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,235 - INFO - Response: 200
+2025-04-20 04:08:44,294 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,295 - INFO - Response: 200
+2025-04-20 04:08:44,298 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,298 - INFO - Response: 200
+2025-04-20 04:08:44,445 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,446 - INFO - Response: 200
+2025-04-20 04:08:44,639 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,639 - INFO - Response: 200
+2025-04-20 04:08:44,661 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,662 - INFO - Response: 200
+2025-04-20 04:08:44,739 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,739 - INFO - Response: 200
+2025-04-20 04:08:44,765 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,765 - INFO - Response: 200
+2025-04-20 04:08:44,831 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,831 - INFO - Response: 200
+2025-04-20 04:08:44,834 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:44,835 - INFO - Response: 200
+2025-04-20 04:08:45,040 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,040 - INFO - Response: 200
+2025-04-20 04:08:45,076 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,076 - INFO - Response: 200
+2025-04-20 04:08:45,126 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,126 - INFO - Response: 200
+2025-04-20 04:08:45,147 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,147 - INFO - Response: 200
+2025-04-20 04:08:45,171 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,172 - INFO - Response: 200
+2025-04-20 04:08:45,180 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,180 - INFO - Response: 200
+2025-04-20 04:08:45,186 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,186 - INFO - Response: 200
+2025-04-20 04:08:45,225 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,225 - INFO - Response: 200
+2025-04-20 04:08:45,239 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,240 - INFO - Response: 200
+2025-04-20 04:08:45,261 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,261 - INFO - Response: 200
+2025-04-20 04:08:45,443 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,444 - INFO - Response: 200
+2025-04-20 04:08:45,549 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,550 - INFO - Response: 200
+2025-04-20 04:08:45,574 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,575 - INFO - Response: 200
+2025-04-20 04:08:45,685 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,685 - INFO - Response: 200
+2025-04-20 04:08:45,699 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,699 - INFO - Response: 200
+2025-04-20 04:08:45,701 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,701 - INFO - Response: 200
+2025-04-20 04:08:45,732 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,733 - INFO - Response: 200
+2025-04-20 04:08:45,758 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,758 - INFO - Response: 200
+2025-04-20 04:08:45,769 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,769 - INFO - Response: 200
+2025-04-20 04:08:45,771 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,771 - INFO - Response: 200
+2025-04-20 04:08:45,808 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,809 - INFO - Response: 200
+2025-04-20 04:08:45,825 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,825 - INFO - Response: 200
+2025-04-20 04:08:45,842 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,843 - INFO - Response: 200
+2025-04-20 04:08:45,873 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,874 - INFO - Response: 200
+2025-04-20 04:08:45,912 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,912 - INFO - Response: 200
+2025-04-20 04:08:45,957 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,957 - INFO - Response: 200
+2025-04-20 04:08:45,986 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:45,987 - INFO - Response: 200
+2025-04-20 04:08:46,082 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,083 - INFO - Response: 200
+2025-04-20 04:08:46,225 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,226 - INFO - Response: 200
+2025-04-20 04:08:46,229 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,229 - INFO - Response: 200
+2025-04-20 04:08:46,465 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,465 - INFO - Response: 200
+2025-04-20 04:08:46,509 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,509 - INFO - Response: 200
+2025-04-20 04:08:46,539 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,539 - INFO - Response: 200
+2025-04-20 04:08:46,575 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,575 - INFO - Response: 200
+2025-04-20 04:08:46,592 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,593 - INFO - Response: 200
+2025-04-20 04:08:46,594 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,594 - INFO - Response: 200
+2025-04-20 04:08:46,615 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,616 - INFO - Response: 200
+2025-04-20 04:08:46,815 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,815 - INFO - Response: 200
+2025-04-20 04:08:46,819 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,820 - INFO - Response: 200
+2025-04-20 04:08:46,821 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,821 - INFO - Response: 200
+2025-04-20 04:08:46,880 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,880 - INFO - Response: 200
+2025-04-20 04:08:46,901 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,902 - INFO - Response: 200
+2025-04-20 04:08:46,936 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,936 - INFO - Response: 200
+2025-04-20 04:08:46,942 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:46,942 - INFO - Response: 200
+2025-04-20 04:08:47,049 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,050 - INFO - Response: 200
+2025-04-20 04:08:47,054 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,055 - INFO - Response: 200
+2025-04-20 04:08:47,083 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,084 - INFO - Response: 200
+2025-04-20 04:08:47,117 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,118 - INFO - Response: 200
+2025-04-20 04:08:47,232 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,233 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,233 - INFO - Response: 200
+2025-04-20 04:08:47,234 - INFO - Response: 200
+2025-04-20 04:08:47,269 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,270 - INFO - Response: 200
+2025-04-20 04:08:47,360 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,361 - INFO - Response: 200
+2025-04-20 04:08:47,382 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,382 - INFO - Response: 200
+2025-04-20 04:08:47,475 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,476 - INFO - Response: 200
+2025-04-20 04:08:47,499 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,499 - INFO - Response: 200
+2025-04-20 04:08:47,547 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,548 - INFO - Response: 200
+2025-04-20 04:08:47,564 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,564 - INFO - Response: 200
+2025-04-20 04:08:47,596 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,597 - INFO - Response: 200
+2025-04-20 04:08:47,599 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,599 - INFO - Response: 200
+2025-04-20 04:08:47,613 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,613 - INFO - Response: 200
+2025-04-20 04:08:47,635 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,635 - INFO - Response: 200
+2025-04-20 04:08:47,749 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,749 - INFO - Response: 200
+2025-04-20 04:08:47,774 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,774 - INFO - Response: 200
+2025-04-20 04:08:47,806 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,806 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,806 - INFO - Response: 200
+2025-04-20 04:08:47,807 - INFO - Response: 200
+2025-04-20 04:08:47,863 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,863 - INFO - Response: 200
+2025-04-20 04:08:47,873 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,874 - INFO - Response: 200
+2025-04-20 04:08:47,944 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,945 - INFO - Response: 200
+2025-04-20 04:08:47,957 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:47,957 - INFO - Response: 200
+2025-04-20 04:08:48,029 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,029 - INFO - Response: 200
+2025-04-20 04:08:48,106 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,106 - INFO - Response: 200
+2025-04-20 04:08:48,160 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,160 - INFO - Response: 200
+2025-04-20 04:08:48,200 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,200 - INFO - Response: 200
+2025-04-20 04:08:48,343 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,344 - INFO - Response: 200
+2025-04-20 04:08:48,375 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,376 - INFO - Response: 200
+2025-04-20 04:08:48,395 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,395 - INFO - Response: 200
+2025-04-20 04:08:48,469 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,470 - INFO - Response: 200
+2025-04-20 04:08:48,519 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,519 - INFO - Response: 200
+2025-04-20 04:08:48,562 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,563 - INFO - Response: 200
+2025-04-20 04:08:48,619 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,619 - INFO - Response: 200
+2025-04-20 04:08:48,655 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,655 - INFO - Response: 200
+2025-04-20 04:08:48,693 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,693 - INFO - Response: 200
+2025-04-20 04:08:48,719 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,720 - INFO - Response: 200
+2025-04-20 04:08:48,723 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,723 - INFO - Response: 200
+2025-04-20 04:08:48,854 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,855 - INFO - Response: 200
+2025-04-20 04:08:48,891 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,892 - INFO - Response: 200
+2025-04-20 04:08:48,919 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,920 - INFO - Response: 200
+2025-04-20 04:08:48,951 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:48,951 - INFO - Response: 200
+2025-04-20 04:08:49,013 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,013 - INFO - Response: 200
+2025-04-20 04:08:49,035 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,035 - INFO - Response: 200
+2025-04-20 04:08:49,039 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,040 - INFO - Response: 200
+2025-04-20 04:08:49,082 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,082 - INFO - Response: 200
+2025-04-20 04:08:49,086 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,087 - INFO - Response: 200
+2025-04-20 04:08:49,304 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,305 - INFO - Response: 200
+2025-04-20 04:08:49,324 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,324 - INFO - Response: 200
+2025-04-20 04:08:49,379 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,379 - INFO - Response: 200
+2025-04-20 04:08:49,551 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,551 - INFO - Response: 200
+2025-04-20 04:08:49,589 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,589 - INFO - Response: 200
+2025-04-20 04:08:49,597 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,597 - INFO - Response: 200
+2025-04-20 04:08:49,604 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,604 - INFO - Response: 200
+2025-04-20 04:08:49,668 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,668 - INFO - Response: 200
+2025-04-20 04:08:49,711 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,711 - INFO - Response: 200
+2025-04-20 04:08:49,789 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,790 - INFO - Response: 200
+2025-04-20 04:08:49,815 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,815 - INFO - Response: 200
+2025-04-20 04:08:49,874 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,874 - INFO - Response: 200
+2025-04-20 04:08:49,951 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:49,951 - INFO - Response: 200
+2025-04-20 04:08:50,035 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,036 - INFO - Response: 200
+2025-04-20 04:08:50,051 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,051 - INFO - Response: 200
+2025-04-20 04:08:50,083 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,083 - INFO - Response: 200
+2025-04-20 04:08:50,097 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,097 - INFO - Response: 200
+2025-04-20 04:08:50,106 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,106 - INFO - Response: 200
+2025-04-20 04:08:50,107 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,107 - INFO - Response: 200
+2025-04-20 04:08:50,133 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,133 - INFO - Response: 200
+2025-04-20 04:08:50,218 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,218 - INFO - Response: 200
+2025-04-20 04:08:50,340 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,340 - INFO - Response: 200
+2025-04-20 04:08:50,350 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,350 - INFO - Response: 200
+2025-04-20 04:08:50,358 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,359 - INFO - Response: 200
+2025-04-20 04:08:50,394 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,394 - INFO - Response: 200
+2025-04-20 04:08:50,499 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,499 - INFO - Response: 200
+2025-04-20 04:08:50,554 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,554 - INFO - Response: 200
+2025-04-20 04:08:50,596 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,596 - INFO - Response: 200
+2025-04-20 04:08:50,657 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,658 - INFO - Response: 200
+2025-04-20 04:08:50,802 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,803 - INFO - Response: 200
+2025-04-20 04:08:50,807 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,808 - INFO - Response: 200
+2025-04-20 04:08:50,813 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,813 - INFO - Response: 200
+2025-04-20 04:08:50,863 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,863 - INFO - Response: 200
+2025-04-20 04:08:50,920 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,921 - INFO - Response: 200
+2025-04-20 04:08:50,948 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:50,948 - INFO - Response: 200
+2025-04-20 04:08:51,019 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,020 - INFO - Response: 200
+2025-04-20 04:08:51,054 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,055 - INFO - Response: 200
+2025-04-20 04:08:51,094 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,095 - INFO - Response: 200
+2025-04-20 04:08:51,101 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,102 - INFO - Response: 200
+2025-04-20 04:08:51,138 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,138 - INFO - Response: 200
+2025-04-20 04:08:51,374 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,374 - INFO - Response: 200
+2025-04-20 04:08:51,400 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,400 - INFO - Response: 200
+2025-04-20 04:08:51,450 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,451 - INFO - Response: 200
+2025-04-20 04:08:51,483 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,484 - INFO - Response: 200
+2025-04-20 04:08:51,485 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,485 - INFO - Response: 200
+2025-04-20 04:08:51,522 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,523 - INFO - Response: 200
+2025-04-20 04:08:51,527 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,527 - INFO - Response: 200
+2025-04-20 04:08:51,540 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,541 - INFO - Response: 200
+2025-04-20 04:08:51,570 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,570 - INFO - Response: 200
+2025-04-20 04:08:51,714 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,714 - INFO - Response: 200
+2025-04-20 04:08:51,750 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,751 - INFO - Response: 200
+2025-04-20 04:08:51,764 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,765 - INFO - Response: 200
+2025-04-20 04:08:51,916 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:51,916 - INFO - Response: 200
+2025-04-20 04:08:52,125 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,126 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,127 - INFO - Response: 200
+2025-04-20 04:08:52,128 - INFO - Response: 200
+2025-04-20 04:08:52,132 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,132 - INFO - Response: 200
+2025-04-20 04:08:52,138 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,138 - INFO - Response: 200
+2025-04-20 04:08:52,175 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,176 - INFO - Response: 200
+2025-04-20 04:08:52,226 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,226 - INFO - Response: 200
+2025-04-20 04:08:52,315 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,316 - INFO - Response: 200
+2025-04-20 04:08:52,323 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,323 - INFO - Response: 200
+2025-04-20 04:08:52,340 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,341 - INFO - Response: 200
+2025-04-20 04:08:52,375 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,375 - INFO - Response: 200
+2025-04-20 04:08:52,454 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,454 - INFO - Response: 200
+2025-04-20 04:08:52,473 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,473 - INFO - Response: 200
+2025-04-20 04:08:52,477 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,478 - INFO - Response: 200
+2025-04-20 04:08:52,496 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,496 - INFO - Response: 200
+2025-04-20 04:08:52,567 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,567 - INFO - Response: 200
+2025-04-20 04:08:52,704 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,705 - INFO - Response: 200
+2025-04-20 04:08:52,722 - INFO - Request: POST http://127.0.0.1:8000/api/v1/video/s3/upload
+2025-04-20 04:08:52,737 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,737 - INFO - Response: 200
+2025-04-20 04:08:52,774 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,774 - INFO - Response: 200
+2025-04-20 04:08:52,787 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,787 - INFO - Response: 200
+2025-04-20 04:08:52,792 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,793 - INFO - Response: 200
+2025-04-20 04:08:52,871 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,871 - INFO - Response: 200
+2025-04-20 04:08:52,890 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,890 - INFO - Response: 200
+2025-04-20 04:08:52,948 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,948 - INFO - Response: 200
+2025-04-20 04:08:52,985 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:52,985 - INFO - Response: 200
+2025-04-20 04:08:53,001 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,002 - INFO - Response: 200
+2025-04-20 04:08:53,054 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,054 - INFO - Response: 200
+2025-04-20 04:08:53,177 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,177 - INFO - Response: 200
+2025-04-20 04:08:53,296 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,296 - INFO - Response: 200
+2025-04-20 04:08:53,333 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,334 - INFO - Response: 200
+2025-04-20 04:08:53,350 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,350 - INFO - Response: 200
+2025-04-20 04:08:53,468 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,469 - INFO - Response: 200
+2025-04-20 04:08:53,488 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,488 - INFO - Response: 200
+2025-04-20 04:08:53,540 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,540 - INFO - Response: 200
+2025-04-20 04:08:53,586 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,586 - INFO - Response: 200
+2025-04-20 04:08:53,598 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,598 - INFO - Response: 200
+2025-04-20 04:08:53,620 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,620 - INFO - Response: 200
+2025-04-20 04:08:53,628 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,628 - INFO - Response: 200
+2025-04-20 04:08:53,652 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,653 - INFO - Response: 200
+2025-04-20 04:08:53,715 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,716 - INFO - Response: 200
+2025-04-20 04:08:53,910 - INFO - Response: 200
+2025-04-20 04:08:53,944 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,944 - INFO - Response: 200
+2025-04-20 04:08:53,978 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:53,978 - INFO - Response: 200
+2025-04-20 04:08:54,004 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,004 - INFO - Response: 200
+2025-04-20 04:08:54,024 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,024 - INFO - Response: 200
+2025-04-20 04:08:54,069 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,070 - INFO - Response: 200
+2025-04-20 04:08:54,086 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,087 - INFO - Response: 200
+2025-04-20 04:08:54,209 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,210 - INFO - Response: 200
+2025-04-20 04:08:54,227 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,228 - INFO - Response: 200
+2025-04-20 04:08:54,239 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,239 - INFO - Response: 200
+2025-04-20 04:08:54,284 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,285 - INFO - Response: 200
+2025-04-20 04:08:54,297 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,297 - INFO - Response: 200
+2025-04-20 04:08:54,370 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,370 - INFO - Response: 200
+2025-04-20 04:08:54,388 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,388 - INFO - Response: 200
+2025-04-20 04:08:54,432 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,432 - INFO - Response: 200
+2025-04-20 04:08:54,466 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,466 - INFO - Response: 200
+2025-04-20 04:08:54,509 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,509 - INFO - Response: 200
+2025-04-20 04:08:54,552 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,553 - INFO - Response: 200
+2025-04-20 04:08:54,604 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,605 - INFO - Response: 200
+2025-04-20 04:08:54,611 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,612 - INFO - Response: 200
+2025-04-20 04:08:54,654 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,654 - INFO - Response: 200
+2025-04-20 04:08:54,677 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,678 - INFO - Response: 200
+2025-04-20 04:08:54,694 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,695 - INFO - Response: 200
+2025-04-20 04:08:54,719 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,720 - INFO - Response: 200
+2025-04-20 04:08:54,731 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,732 - INFO - Response: 200
+2025-04-20 04:08:54,786 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,787 - INFO - Response: 200
+2025-04-20 04:08:54,916 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,917 - INFO - Response: 200
+2025-04-20 04:08:54,983 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:54,984 - INFO - Response: 200
+2025-04-20 04:08:55,074 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,075 - INFO - Response: 200
+2025-04-20 04:08:55,089 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,090 - INFO - Response: 200
+2025-04-20 04:08:55,161 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,161 - INFO - Response: 200
+2025-04-20 04:08:55,190 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,191 - INFO - Response: 200
+2025-04-20 04:08:55,305 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,306 - INFO - Response: 200
+2025-04-20 04:08:55,309 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,309 - INFO - Response: 200
+2025-04-20 04:08:55,324 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,324 - INFO - Response: 200
+2025-04-20 04:08:55,412 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,413 - INFO - Response: 200
+2025-04-20 04:08:55,419 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,420 - INFO - Response: 200
+2025-04-20 04:08:55,570 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,570 - INFO - Response: 200
+2025-04-20 04:08:55,606 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,606 - INFO - Response: 200
+2025-04-20 04:08:55,660 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,660 - INFO - Response: 200
+2025-04-20 04:08:55,864 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,864 - INFO - Response: 200
+2025-04-20 04:08:55,884 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,884 - INFO - Response: 200
+2025-04-20 04:08:55,943 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,944 - INFO - Response: 200
+2025-04-20 04:08:55,978 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:55,978 - INFO - Response: 200
+2025-04-20 04:08:56,044 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,044 - INFO - Response: 200
+2025-04-20 04:08:56,046 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,046 - INFO - Response: 200
+2025-04-20 04:08:56,059 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,059 - INFO - Response: 200
+2025-04-20 04:08:56,098 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,098 - INFO - Response: 200
+2025-04-20 04:08:56,147 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,148 - INFO - Response: 200
+2025-04-20 04:08:56,357 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,358 - INFO - Response: 200
+2025-04-20 04:08:56,369 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,370 - INFO - Response: 200
+2025-04-20 04:08:56,464 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,465 - INFO - Response: 200
+2025-04-20 04:08:56,487 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,488 - INFO - Response: 200
+2025-04-20 04:08:56,491 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,491 - INFO - Response: 200
+2025-04-20 04:08:56,543 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,544 - INFO - Response: 200
+2025-04-20 04:08:56,558 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,558 - INFO - Response: 200
+2025-04-20 04:08:56,660 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,660 - INFO - Response: 200
+2025-04-20 04:08:56,664 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,664 - INFO - Response: 200
+2025-04-20 04:08:56,712 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,713 - INFO - Response: 200
+2025-04-20 04:08:56,731 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,731 - INFO - Response: 200
+2025-04-20 04:08:56,768 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,769 - INFO - Response: 200
+2025-04-20 04:08:56,794 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,795 - INFO - Response: 200
+2025-04-20 04:08:56,874 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,874 - INFO - Response: 200
+2025-04-20 04:08:56,976 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:56,977 - INFO - Response: 200
+2025-04-20 04:08:56,999 - INFO - Request: POST http://127.0.0.1:8000/api/v1/video/s3/upload
+2025-04-20 04:08:57,124 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,125 - INFO - Response: 200
+2025-04-20 04:08:57,138 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,139 - INFO - Response: 200
+2025-04-20 04:08:57,174 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,174 - INFO - Response: 200
+2025-04-20 04:08:57,231 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,232 - INFO - Response: 200
+2025-04-20 04:08:57,354 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,355 - INFO - Response: 200
+2025-04-20 04:08:57,399 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,399 - INFO - Response: 200
+2025-04-20 04:08:57,412 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,413 - INFO - Response: 200
+2025-04-20 04:08:57,419 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,420 - INFO - Response: 200
+2025-04-20 04:08:57,434 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,435 - INFO - Response: 200
+2025-04-20 04:08:57,440 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,440 - INFO - Response: 200
+2025-04-20 04:08:57,585 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,585 - INFO - Response: 200
+2025-04-20 04:08:57,592 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,592 - INFO - Response: 200
+2025-04-20 04:08:57,629 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,630 - INFO - Response: 200
+2025-04-20 04:08:57,640 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,640 - INFO - Response: 200
+2025-04-20 04:08:57,651 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,652 - INFO - Response: 200
+2025-04-20 04:08:57,690 - INFO - Response: 200
+2025-04-20 04:08:57,709 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,709 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,709 - INFO - Response: 200
+2025-04-20 04:08:57,710 - INFO - Response: 200
+2025-04-20 04:08:57,845 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,845 - INFO - Response: 200
+2025-04-20 04:08:57,938 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:57,939 - INFO - Response: 200
+2025-04-20 04:08:57,999 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,000 - INFO - Response: 200
+2025-04-20 04:08:58,005 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,005 - INFO - Response: 200
+2025-04-20 04:08:58,072 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,073 - INFO - Response: 200
+2025-04-20 04:08:58,198 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,198 - INFO - Response: 200
+2025-04-20 04:08:58,213 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,213 - INFO - Response: 200
+2025-04-20 04:08:58,220 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,220 - INFO - Response: 200
+2025-04-20 04:08:58,244 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,245 - INFO - Response: 200
+2025-04-20 04:08:58,257 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,258 - INFO - Response: 200
+2025-04-20 04:08:58,267 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,268 - INFO - Response: 200
+2025-04-20 04:08:58,302 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,303 - INFO - Response: 200
+2025-04-20 04:08:58,479 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,480 - INFO - Response: 200
+2025-04-20 04:08:58,553 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,553 - INFO - Response: 200
+2025-04-20 04:08:58,577 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,577 - INFO - Response: 200
+2025-04-20 04:08:58,615 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,615 - INFO - Response: 200
+2025-04-20 04:08:58,666 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,667 - INFO - Response: 200
+2025-04-20 04:08:58,691 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,692 - INFO - Response: 200
+2025-04-20 04:08:58,703 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,704 - INFO - Response: 200
+2025-04-20 04:08:58,710 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,710 - INFO - Response: 200
+2025-04-20 04:08:58,777 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,778 - INFO - Response: 200
+2025-04-20 04:08:58,812 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,812 - INFO - Response: 200
+2025-04-20 04:08:58,878 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:58,878 - INFO - Response: 200
+2025-04-20 04:08:59,076 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,077 - INFO - Response: 200
+2025-04-20 04:08:59,232 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,232 - INFO - Response: 200
+2025-04-20 04:08:59,251 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,252 - INFO - Response: 200
+2025-04-20 04:08:59,287 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,288 - INFO - Response: 200
+2025-04-20 04:08:59,296 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,297 - INFO - Response: 200
+2025-04-20 04:08:59,352 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,352 - INFO - Response: 200
+2025-04-20 04:08:59,468 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,469 - INFO - Response: 200
+2025-04-20 04:08:59,563 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,563 - INFO - Response: 200
+2025-04-20 04:08:59,588 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,589 - INFO - Response: 200
+2025-04-20 04:08:59,657 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,657 - INFO - Response: 200
+2025-04-20 04:08:59,673 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,673 - INFO - Response: 200
+2025-04-20 04:08:59,741 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,742 - INFO - Response: 200
+2025-04-20 04:08:59,800 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,801 - INFO - Response: 200
+2025-04-20 04:08:59,837 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,838 - INFO - Response: 200
+2025-04-20 04:08:59,906 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,906 - INFO - Response: 200
+2025-04-20 04:08:59,921 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,921 - INFO - Response: 200
+2025-04-20 04:08:59,934 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,934 - INFO - Response: 200
+2025-04-20 04:08:59,980 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,980 - INFO - Response: 200
+2025-04-20 04:08:59,985 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:08:59,986 - INFO - Response: 200
+2025-04-20 04:09:00,035 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,036 - INFO - Response: 200
+2025-04-20 04:09:00,051 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,052 - INFO - Response: 200
+2025-04-20 04:09:00,120 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,120 - INFO - Response: 200
+2025-04-20 04:09:00,123 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,124 - INFO - Response: 200
+2025-04-20 04:09:00,195 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,195 - INFO - Response: 200
+2025-04-20 04:09:00,219 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,220 - INFO - Response: 200
+2025-04-20 04:09:00,317 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,318 - INFO - Response: 200
+2025-04-20 04:09:00,361 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,361 - INFO - Response: 200
+2025-04-20 04:09:00,462 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,462 - INFO - Response: 200
+2025-04-20 04:09:00,468 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,468 - INFO - Response: 200
+2025-04-20 04:09:00,597 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,597 - INFO - Response: 200
+2025-04-20 04:09:00,605 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,606 - INFO - Response: 200
+2025-04-20 04:09:00,609 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,609 - INFO - Response: 200
+2025-04-20 04:09:00,620 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,621 - INFO - Response: 200
+2025-04-20 04:09:00,621 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,622 - INFO - Response: 200
+2025-04-20 04:09:00,679 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,680 - INFO - Response: 200
+2025-04-20 04:09:00,723 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,723 - INFO - Response: 200
+2025-04-20 04:09:00,748 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,748 - INFO - Response: 200
+2025-04-20 04:09:00,792 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,793 - INFO - Response: 200
+2025-04-20 04:09:00,879 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,879 - INFO - Response: 200
+2025-04-20 04:09:00,947 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:00,948 - INFO - Response: 200
+2025-04-20 04:09:01,035 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,036 - INFO - Response: 200
+2025-04-20 04:09:01,060 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,060 - INFO - Response: 200
+2025-04-20 04:09:01,152 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,152 - INFO - Response: 200
+2025-04-20 04:09:01,179 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,179 - INFO - Response: 200
+2025-04-20 04:09:01,196 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,196 - INFO - Response: 200
+2025-04-20 04:09:01,257 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,258 - INFO - Response: 200
+2025-04-20 04:09:01,314 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,315 - INFO - Response: 200
+2025-04-20 04:09:01,446 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,446 - INFO - Response: 200
+2025-04-20 04:09:01,459 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,460 - INFO - Response: 200
+2025-04-20 04:09:01,485 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,485 - INFO - Response: 200
+2025-04-20 04:09:01,647 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,647 - INFO - Response: 200
+2025-04-20 04:09:01,765 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,766 - INFO - Response: 200
+2025-04-20 04:09:01,814 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,814 - INFO - Response: 200
+2025-04-20 04:09:01,826 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,826 - INFO - Response: 200
+2025-04-20 04:09:01,833 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,834 - INFO - Response: 200
+2025-04-20 04:09:01,917 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,917 - INFO - Response: 200
+2025-04-20 04:09:01,945 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,945 - INFO - Response: 200
+2025-04-20 04:09:01,962 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:01,963 - INFO - Response: 200
+2025-04-20 04:09:02,015 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,017 - INFO - Response: 200
+2025-04-20 04:09:02,031 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,031 - INFO - Response: 200
+2025-04-20 04:09:02,046 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,047 - INFO - Response: 200
+2025-04-20 04:09:02,084 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,085 - INFO - Response: 200
+2025-04-20 04:09:02,085 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,085 - INFO - Response: 200
+2025-04-20 04:09:02,103 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,104 - INFO - Response: 200
+2025-04-20 04:09:02,170 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,171 - INFO - Response: 200
+2025-04-20 04:09:02,193 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,193 - INFO - Response: 200
+2025-04-20 04:09:02,279 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,280 - INFO - Response: 200
+2025-04-20 04:09:02,351 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,352 - INFO - Response: 200
+2025-04-20 04:09:02,387 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,388 - INFO - Response: 200
+2025-04-20 04:09:02,465 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,466 - INFO - Response: 200
+2025-04-20 04:09:02,549 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,549 - INFO - Response: 200
+2025-04-20 04:09:02,551 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,551 - INFO - Response: 200
+2025-04-20 04:09:02,559 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,559 - INFO - Response: 200
+2025-04-20 04:09:02,628 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,629 - INFO - Response: 200
+2025-04-20 04:09:02,650 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,651 - INFO - Response: 200
+2025-04-20 04:09:02,738 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,739 - INFO - Response: 200
+2025-04-20 04:09:02,756 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,756 - INFO - Response: 200
+2025-04-20 04:09:02,808 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,809 - INFO - Response: 200
+2025-04-20 04:09:02,888 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,888 - INFO - Response: 200
+2025-04-20 04:09:02,894 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,894 - INFO - Response: 200
+2025-04-20 04:09:02,946 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:02,947 - INFO - Response: 200
+2025-04-20 04:09:03,027 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,028 - INFO - Response: 200
+2025-04-20 04:09:03,151 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,151 - INFO - Response: 200
+2025-04-20 04:09:03,189 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,189 - INFO - Response: 200
+2025-04-20 04:09:03,256 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,257 - INFO - Response: 200
+2025-04-20 04:09:03,277 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,277 - INFO - Response: 200
+2025-04-20 04:09:03,281 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,282 - INFO - Response: 200
+2025-04-20 04:09:03,346 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,346 - INFO - Response: 200
+2025-04-20 04:09:03,387 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,387 - INFO - Response: 200
+2025-04-20 04:09:03,410 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,411 - INFO - Response: 200
+2025-04-20 04:09:03,467 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,467 - INFO - Response: 200
+2025-04-20 04:09:03,483 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,483 - INFO - Response: 200
+2025-04-20 04:09:03,516 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,517 - INFO - Response: 200
+2025-04-20 04:09:03,641 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,642 - INFO - Response: 200
+2025-04-20 04:09:03,661 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,661 - INFO - Response: 200
+2025-04-20 04:09:03,717 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,718 - INFO - Response: 200
+2025-04-20 04:09:03,720 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,721 - INFO - Response: 200
+2025-04-20 04:09:03,943 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,944 - INFO - Response: 200
+2025-04-20 04:09:03,994 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:03,995 - INFO - Response: 200
+2025-04-20 04:09:04,065 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,065 - INFO - Response: 200
+2025-04-20 04:09:04,088 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,088 - INFO - Response: 200
+2025-04-20 04:09:04,089 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,089 - INFO - Response: 200
+2025-04-20 04:09:04,108 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,108 - INFO - Response: 200
+2025-04-20 04:09:04,110 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,111 - INFO - Response: 200
+2025-04-20 04:09:04,126 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,126 - INFO - Response: 200
+2025-04-20 04:09:04,164 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,164 - INFO - Response: 200
+2025-04-20 04:09:04,217 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,217 - INFO - Response: 200
+2025-04-20 04:09:04,246 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,246 - INFO - Response: 200
+2025-04-20 04:09:04,367 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,367 - INFO - Response: 200
+2025-04-20 04:09:04,376 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,376 - INFO - Response: 200
+2025-04-20 04:09:04,421 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,421 - INFO - Response: 200
+2025-04-20 04:09:04,523 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,523 - INFO - Response: 200
+2025-04-20 04:09:04,609 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,609 - INFO - Response: 200
+2025-04-20 04:09:04,654 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,654 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,655 - INFO - Response: 200
+2025-04-20 04:09:04,656 - INFO - Response: 200
+2025-04-20 04:09:04,693 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,693 - INFO - Response: 200
+2025-04-20 04:09:04,752 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,752 - INFO - Response: 200
+2025-04-20 04:09:04,923 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,923 - INFO - Response: 200
+2025-04-20 04:09:04,932 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,932 - INFO - Response: 200
+2025-04-20 04:09:04,934 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,935 - INFO - Response: 200
+2025-04-20 04:09:04,964 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,965 - INFO - Response: 200
+2025-04-20 04:09:04,972 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:04,972 - INFO - Response: 200
+2025-04-20 04:09:05,001 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,001 - INFO - Response: 200
+2025-04-20 04:09:05,013 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,014 - INFO - Response: 200
+2025-04-20 04:09:05,038 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,038 - INFO - Response: 200
+2025-04-20 04:09:05,073 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,073 - INFO - Response: 200
+2025-04-20 04:09:05,223 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,224 - INFO - Response: 200
+2025-04-20 04:09:05,346 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,346 - INFO - Response: 200
+2025-04-20 04:09:05,406 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,406 - INFO - Response: 200
+2025-04-20 04:09:05,460 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,460 - INFO - Response: 200
+2025-04-20 04:09:05,499 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,500 - INFO - Response: 200
+2025-04-20 04:09:05,572 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,573 - INFO - Response: 200
+2025-04-20 04:09:05,677 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,678 - INFO - Response: 200
+2025-04-20 04:09:05,701 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,701 - INFO - Response: 200
+2025-04-20 04:09:05,707 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,708 - INFO - Response: 200
+2025-04-20 04:09:05,714 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,714 - INFO - Response: 200
+2025-04-20 04:09:05,755 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,755 - INFO - Response: 200
+2025-04-20 04:09:05,862 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,863 - INFO - Response: 200
+2025-04-20 04:09:05,879 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,880 - INFO - Response: 200
+2025-04-20 04:09:05,926 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,926 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,927 - INFO - Response: 200
+2025-04-20 04:09:05,927 - INFO - Response: 200
+2025-04-20 04:09:05,931 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:05,932 - INFO - Response: 200
+2025-04-20 04:09:06,014 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,014 - INFO - Response: 200
+2025-04-20 04:09:06,068 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,068 - INFO - Response: 200
+2025-04-20 04:09:06,261 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,262 - INFO - Response: 200
+2025-04-20 04:09:06,265 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,265 - INFO - Response: 200
+2025-04-20 04:09:06,328 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,328 - INFO - Response: 200
+2025-04-20 04:09:06,336 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,337 - INFO - Response: 200
+2025-04-20 04:09:06,384 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,384 - INFO - Response: 200
+2025-04-20 04:09:06,414 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,415 - INFO - Response: 200
+2025-04-20 04:09:06,536 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,537 - INFO - Response: 200
+2025-04-20 04:09:06,584 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,585 - INFO - Response: 200
+2025-04-20 04:09:06,627 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,628 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,629 - INFO - Response: 200
+2025-04-20 04:09:06,630 - INFO - Response: 200
+2025-04-20 04:09:06,642 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,643 - INFO - Response: 200
+2025-04-20 04:09:06,645 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,645 - INFO - Response: 200
+2025-04-20 04:09:06,729 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,730 - INFO - Response: 200
+2025-04-20 04:09:06,738 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,738 - INFO - Response: 200
+2025-04-20 04:09:06,764 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,765 - INFO - Response: 200
+2025-04-20 04:09:06,927 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,928 - INFO - Response: 200
+2025-04-20 04:09:06,962 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:06,963 - INFO - Response: 200
+2025-04-20 04:09:07,035 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,035 - INFO - Response: 200
+2025-04-20 04:09:07,079 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,079 - INFO - Response: 200
+2025-04-20 04:09:07,112 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,112 - INFO - Response: 200
+2025-04-20 04:09:07,207 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,208 - INFO - Response: 200
+2025-04-20 04:09:07,278 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,279 - INFO - Response: 200
+2025-04-20 04:09:07,424 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,424 - INFO - Response: 200
+2025-04-20 04:09:07,434 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,434 - INFO - Response: 200
+2025-04-20 04:09:07,532 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,532 - INFO - Response: 200
+2025-04-20 04:09:07,564 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,564 - INFO - Response: 200
+2025-04-20 04:09:07,586 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,586 - INFO - Response: 200
+2025-04-20 04:09:07,614 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,614 - INFO - Response: 200
+2025-04-20 04:09:07,639 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,639 - INFO - Response: 200
+2025-04-20 04:09:07,678 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,678 - INFO - Response: 200
+2025-04-20 04:09:07,716 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,716 - INFO - Response: 200
+2025-04-20 04:09:07,738 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,738 - INFO - Response: 200
+2025-04-20 04:09:07,785 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,786 - INFO - Response: 200
+2025-04-20 04:09:07,787 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,788 - INFO - Response: 200
+2025-04-20 04:09:07,913 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,914 - INFO - Response: 200
+2025-04-20 04:09:07,929 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,930 - INFO - Response: 200
+2025-04-20 04:09:07,931 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,932 - INFO - Response: 200
+2025-04-20 04:09:07,974 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:07,975 - INFO - Response: 200
+2025-04-20 04:09:08,051 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,052 - INFO - Response: 200
+2025-04-20 04:09:08,112 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,112 - INFO - Response: 200
+2025-04-20 04:09:08,149 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,150 - INFO - Response: 200
+2025-04-20 04:09:08,298 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,299 - INFO - Response: 200
+2025-04-20 04:09:08,330 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,330 - INFO - Response: 200
+2025-04-20 04:09:08,349 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,349 - INFO - Response: 200
+2025-04-20 04:09:08,350 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,351 - INFO - Response: 200
+2025-04-20 04:09:08,384 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,384 - INFO - Response: 200
+2025-04-20 04:09:08,392 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,393 - INFO - Response: 200
+2025-04-20 04:09:08,398 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,398 - INFO - Response: 200
+2025-04-20 04:09:08,461 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,461 - INFO - Response: 200
+2025-04-20 04:09:08,529 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,529 - INFO - Response: 200
+2025-04-20 04:09:08,569 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,570 - INFO - Response: 200
+2025-04-20 04:09:08,609 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,609 - INFO - Response: 200
+2025-04-20 04:09:08,714 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,715 - INFO - Response: 200
+2025-04-20 04:09:08,818 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,819 - INFO - Response: 200
+2025-04-20 04:09:08,825 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,826 - INFO - Response: 200
+2025-04-20 04:09:08,966 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:08,967 - INFO - Response: 200
+2025-04-20 04:09:09,052 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,053 - INFO - Response: 200
+2025-04-20 04:09:09,124 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,124 - INFO - Response: 200
+2025-04-20 04:09:09,136 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,137 - INFO - Response: 200
+2025-04-20 04:09:09,166 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,167 - INFO - Response: 200
+2025-04-20 04:09:09,211 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,212 - INFO - Response: 200
+2025-04-20 04:09:09,237 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,238 - INFO - Response: 200
+2025-04-20 04:09:09,243 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,244 - INFO - Response: 200
+2025-04-20 04:09:09,264 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,264 - INFO - Response: 200
+2025-04-20 04:09:09,275 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,276 - INFO - Response: 200
+2025-04-20 04:09:09,288 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,288 - INFO - Response: 200
+2025-04-20 04:09:09,346 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,346 - INFO - Response: 200
+2025-04-20 04:09:09,413 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,413 - INFO - Response: 200
+2025-04-20 04:09:09,444 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,445 - INFO - Response: 200
+2025-04-20 04:09:09,516 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,517 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,518 - INFO - Response: 200
+2025-04-20 04:09:09,519 - INFO - Response: 200
+2025-04-20 04:09:09,522 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,523 - INFO - Response: 200
+2025-04-20 04:09:09,530 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,531 - INFO - Response: 200
+2025-04-20 04:09:09,562 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,562 - INFO - Response: 200
+2025-04-20 04:09:09,673 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,674 - INFO - Response: 200
+2025-04-20 04:09:09,705 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,706 - INFO - Response: 200
+2025-04-20 04:09:09,871 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,872 - INFO - Response: 200
+2025-04-20 04:09:09,956 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,957 - INFO - Response: 200
+2025-04-20 04:09:09,973 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:09,973 - INFO - Response: 200
+2025-04-20 04:09:10,020 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,021 - INFO - Response: 200
+2025-04-20 04:09:10,031 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,032 - INFO - Response: 200
+2025-04-20 04:09:10,127 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,128 - INFO - Response: 200
+2025-04-20 04:09:10,197 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,198 - INFO - Response: 200
+2025-04-20 04:09:10,312 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,313 - INFO - Response: 200
+2025-04-20 04:09:10,336 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,336 - INFO - Response: 200
+2025-04-20 04:09:10,346 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,346 - INFO - Response: 200
+2025-04-20 04:09:10,417 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,418 - INFO - Response: 200
+2025-04-20 04:09:10,464 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,465 - INFO - Response: 200
+2025-04-20 04:09:10,481 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,482 - INFO - Response: 200
+2025-04-20 04:09:10,553 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,554 - INFO - Response: 200
+2025-04-20 04:09:10,562 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,563 - INFO - Response: 200
+2025-04-20 04:09:10,596 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,597 - INFO - Response: 200
+2025-04-20 04:09:10,633 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,633 - INFO - Response: 200
+2025-04-20 04:09:10,667 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,667 - INFO - Response: 200
+2025-04-20 04:09:10,713 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,713 - INFO - Response: 200
+2025-04-20 04:09:10,716 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,717 - INFO - Response: 200
+2025-04-20 04:09:10,737 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,737 - INFO - Response: 200
+2025-04-20 04:09:10,797 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,797 - INFO - Response: 200
+2025-04-20 04:09:10,943 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,943 - INFO - Response: 200
+2025-04-20 04:09:10,988 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:10,988 - INFO - Response: 200
+2025-04-20 04:09:11,001 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,002 - INFO - Response: 200
+2025-04-20 04:09:11,028 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,028 - INFO - Response: 200
+2025-04-20 04:09:11,110 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,111 - INFO - Response: 200
+2025-04-20 04:09:11,154 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,155 - INFO - Response: 200
+2025-04-20 04:09:11,184 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,184 - INFO - Response: 200
+2025-04-20 04:09:11,191 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,192 - INFO - Response: 200
+2025-04-20 04:09:11,248 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,248 - INFO - Response: 200
+2025-04-20 04:09:11,320 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,321 - INFO - Response: 200
+2025-04-20 04:09:11,338 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,339 - INFO - Response: 200
+2025-04-20 04:09:11,368 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,368 - INFO - Response: 200
+2025-04-20 04:09:11,394 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,395 - INFO - Response: 200
+2025-04-20 04:09:11,462 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,462 - INFO - Response: 200
+2025-04-20 04:09:11,528 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,529 - INFO - Response: 200
+2025-04-20 04:09:11,653 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,653 - INFO - Response: 200
+2025-04-20 04:09:11,706 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,707 - INFO - Response: 200
+2025-04-20 04:09:11,710 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,710 - INFO - Response: 200
+2025-04-20 04:09:11,728 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,729 - INFO - Response: 200
+2025-04-20 04:09:11,738 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,739 - INFO - Response: 200
+2025-04-20 04:09:11,754 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,754 - INFO - Response: 200
+2025-04-20 04:09:11,839 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,839 - INFO - Response: 200
+2025-04-20 04:09:11,910 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,911 - INFO - Response: 200
+2025-04-20 04:09:11,959 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,959 - INFO - Response: 200
+2025-04-20 04:09:11,973 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,974 - INFO - Response: 200
+2025-04-20 04:09:11,975 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:11,976 - INFO - Response: 200
+2025-04-20 04:09:12,007 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,007 - INFO - Response: 200
+2025-04-20 04:09:12,120 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,120 - INFO - Response: 200
+2025-04-20 04:09:12,193 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,193 - INFO - Response: 200
+2025-04-20 04:09:12,259 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,260 - INFO - Response: 200
+2025-04-20 04:09:12,314 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,315 - INFO - Response: 200
+2025-04-20 04:09:12,386 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,387 - INFO - Response: 200
+2025-04-20 04:09:12,393 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,393 - INFO - Response: 200
+2025-04-20 04:09:12,443 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,444 - INFO - Response: 200
+2025-04-20 04:09:12,473 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,474 - INFO - Response: 200
+2025-04-20 04:09:12,561 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,562 - INFO - Response: 200
+2025-04-20 04:09:12,572 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,573 - INFO - Response: 200
+2025-04-20 04:09:12,597 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,598 - INFO - Response: 200
+2025-04-20 04:09:12,667 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,668 - INFO - Response: 200
+2025-04-20 04:09:12,685 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,686 - INFO - Response: 200
+2025-04-20 04:09:12,698 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,698 - INFO - Response: 200
+2025-04-20 04:09:12,777 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,777 - INFO - Response: 200
+2025-04-20 04:09:12,859 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,859 - INFO - Response: 200
+2025-04-20 04:09:12,882 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,882 - INFO - Response: 200
+2025-04-20 04:09:12,890 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,890 - INFO - Response: 200
+2025-04-20 04:09:12,924 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,925 - INFO - Response: 200
+2025-04-20 04:09:12,967 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:12,967 - INFO - Response: 200
+2025-04-20 04:09:13,123 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,124 - INFO - Response: 200
+2025-04-20 04:09:13,144 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,144 - INFO - Response: 200
+2025-04-20 04:09:13,376 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,377 - INFO - Response: 200
+2025-04-20 04:09:13,408 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,409 - INFO - Response: 200
+2025-04-20 04:09:13,456 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,456 - INFO - Response: 200
+2025-04-20 04:09:13,601 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,602 - INFO - Response: 200
+2025-04-20 04:09:13,655 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,655 - INFO - Response: 200
+2025-04-20 04:09:13,662 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,662 - INFO - Response: 200
+2025-04-20 04:09:13,675 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,675 - INFO - Response: 200
+2025-04-20 04:09:13,705 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,706 - INFO - Response: 200
+2025-04-20 04:09:13,818 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,818 - INFO - Response: 200
+2025-04-20 04:09:13,911 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,911 - INFO - Response: 200
+2025-04-20 04:09:13,931 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,931 - INFO - Response: 200
+2025-04-20 04:09:13,943 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,943 - INFO - Response: 200
+2025-04-20 04:09:13,954 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,955 - INFO - Response: 200
+2025-04-20 04:09:13,993 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:13,993 - INFO - Response: 200
+2025-04-20 04:09:14,008 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,009 - INFO - Response: 200
+2025-04-20 04:09:14,078 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,078 - INFO - Response: 200
+2025-04-20 04:09:14,112 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,112 - INFO - Response: 200
+2025-04-20 04:09:14,116 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,116 - INFO - Response: 200
+2025-04-20 04:09:14,137 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,138 - INFO - Response: 200
+2025-04-20 04:09:14,166 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,166 - INFO - Response: 200
+2025-04-20 04:09:14,211 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,212 - INFO - Response: 200
+2025-04-20 04:09:14,215 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,215 - INFO - Response: 200
+2025-04-20 04:09:14,320 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,321 - INFO - Response: 200
+2025-04-20 04:09:14,460 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,460 - INFO - Response: 200
+2025-04-20 04:09:14,486 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,487 - INFO - Response: 200
+2025-04-20 04:09:14,589 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,590 - INFO - Response: 200
+2025-04-20 04:09:14,644 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,644 - INFO - Response: 200
+2025-04-20 04:09:14,692 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,692 - INFO - Response: 200
+2025-04-20 04:09:14,712 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,712 - INFO - Response: 200
+2025-04-20 04:09:14,725 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,725 - INFO - Response: 200
+2025-04-20 04:09:14,892 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,892 - INFO - Response: 200
+2025-04-20 04:09:14,909 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,909 - INFO - Response: 200
+2025-04-20 04:09:14,918 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,919 - INFO - Response: 200
+2025-04-20 04:09:14,961 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,961 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,961 - INFO - Response: 200
+2025-04-20 04:09:14,961 - INFO - Response: 200
+2025-04-20 04:09:14,997 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:14,998 - INFO - Response: 200
+2025-04-20 04:09:15,052 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,052 - INFO - Response: 200
+2025-04-20 04:09:15,075 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,075 - INFO - Response: 200
+2025-04-20 04:09:15,196 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,196 - INFO - Response: 200
+2025-04-20 04:09:15,231 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,231 - INFO - Response: 200
+2025-04-20 04:09:15,283 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,283 - INFO - Response: 200
+2025-04-20 04:09:15,366 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,366 - INFO - Response: 200
+2025-04-20 04:09:15,502 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,503 - INFO - Response: 200
+2025-04-20 04:09:15,509 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,510 - INFO - Response: 200
+2025-04-20 04:09:15,656 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,656 - INFO - Response: 200
+2025-04-20 04:09:15,713 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,713 - INFO - Response: 200
+2025-04-20 04:09:15,757 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,758 - INFO - Response: 200
+2025-04-20 04:09:15,801 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,802 - INFO - Response: 200
+2025-04-20 04:09:15,883 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,884 - INFO - Response: 200
+2025-04-20 04:09:15,916 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,917 - INFO - Response: 200
+2025-04-20 04:09:15,983 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:15,983 - INFO - Response: 200
+2025-04-20 04:09:16,000 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,000 - INFO - Response: 200
+2025-04-20 04:09:16,042 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,043 - INFO - Response: 200
+2025-04-20 04:09:16,056 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,057 - INFO - Response: 200
+2025-04-20 04:09:16,059 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,059 - INFO - Response: 200
+2025-04-20 04:09:16,113 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,114 - INFO - Response: 200
+2025-04-20 04:09:16,155 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,156 - INFO - Response: 200
+2025-04-20 04:09:16,308 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,308 - INFO - Response: 200
+2025-04-20 04:09:16,309 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,309 - INFO - Response: 200
+2025-04-20 04:09:16,336 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,336 - INFO - Response: 200
+2025-04-20 04:09:16,426 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,427 - INFO - Response: 200
+2025-04-20 04:09:16,472 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,472 - INFO - Response: 200
+2025-04-20 04:09:16,553 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,553 - INFO - Response: 200
+2025-04-20 04:09:16,574 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,574 - INFO - Response: 200
+2025-04-20 04:09:16,626 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,626 - INFO - Response: 200
+2025-04-20 04:09:16,639 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,640 - INFO - Response: 200
+2025-04-20 04:09:16,688 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,688 - INFO - Response: 200
+2025-04-20 04:09:16,715 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,715 - INFO - Response: 200
+2025-04-20 04:09:16,744 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,744 - INFO - Response: 200
+2025-04-20 04:09:16,885 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:16,885 - INFO - Response: 200
+2025-04-20 04:09:17,059 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,059 - INFO - Response: 200
+2025-04-20 04:09:17,080 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,080 - INFO - Response: 200
+2025-04-20 04:09:17,129 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,130 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,131 - INFO - Response: 200
+2025-04-20 04:09:17,132 - INFO - Response: 200
+2025-04-20 04:09:17,165 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,166 - INFO - Response: 200
+2025-04-20 04:09:17,193 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,194 - INFO - Response: 200
+2025-04-20 04:09:17,249 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,249 - INFO - Response: 200
+2025-04-20 04:09:17,275 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,275 - INFO - Response: 200
+2025-04-20 04:09:17,293 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,293 - INFO - Response: 200
+2025-04-20 04:09:17,331 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,331 - INFO - Response: 200
+2025-04-20 04:09:17,339 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,339 - INFO - Response: 200
+2025-04-20 04:09:17,370 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,370 - INFO - Response: 200
+2025-04-20 04:09:17,372 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,372 - INFO - Response: 200
+2025-04-20 04:09:17,392 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,392 - INFO - Response: 200
+2025-04-20 04:09:17,394 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,395 - INFO - Response: 200
+2025-04-20 04:09:17,609 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,610 - INFO - Response: 200
+2025-04-20 04:09:17,623 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,623 - INFO - Response: 200
+2025-04-20 04:09:17,858 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,858 - INFO - Response: 200
+2025-04-20 04:09:17,963 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,963 - INFO - Response: 200
+2025-04-20 04:09:17,968 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,968 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:17,968 - INFO - Response: 200
+2025-04-20 04:09:17,969 - INFO - Response: 200
+2025-04-20 04:09:18,005 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,006 - INFO - Response: 200
+2025-04-20 04:09:18,148 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,148 - INFO - Response: 200
+2025-04-20 04:09:18,208 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,209 - INFO - Response: 200
+2025-04-20 04:09:18,223 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,223 - INFO - Response: 200
+2025-04-20 04:09:18,298 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,298 - INFO - Response: 200
+2025-04-20 04:09:18,313 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,313 - INFO - Response: 200
+2025-04-20 04:09:18,338 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,339 - INFO - Response: 200
+2025-04-20 04:09:18,357 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,357 - INFO - Response: 200
+2025-04-20 04:09:18,369 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,369 - INFO - Response: 200
+2025-04-20 04:09:18,413 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,413 - INFO - Response: 200
+2025-04-20 04:09:18,418 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,419 - INFO - Response: 200
+2025-04-20 04:09:18,502 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,503 - INFO - Response: 200
+2025-04-20 04:09:18,575 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,575 - INFO - Response: 200
+2025-04-20 04:09:18,615 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,616 - INFO - Response: 200
+2025-04-20 04:09:18,627 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,627 - INFO - Response: 200
+2025-04-20 04:09:18,628 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,629 - INFO - Response: 200
+2025-04-20 04:09:18,827 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,828 - INFO - Response: 200
+2025-04-20 04:09:18,837 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,837 - INFO - Response: 200
+2025-04-20 04:09:18,896 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,897 - INFO - Response: 200
+2025-04-20 04:09:18,960 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:18,961 - INFO - Response: 200
+2025-04-20 04:09:19,122 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,122 - INFO - Response: 200
+2025-04-20 04:09:19,155 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,155 - INFO - Response: 200
+2025-04-20 04:09:19,217 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,217 - INFO - Response: 200
+2025-04-20 04:09:19,352 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,353 - INFO - Response: 200
+2025-04-20 04:09:19,401 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,401 - INFO - Response: 200
+2025-04-20 04:09:19,408 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,409 - INFO - Response: 200
+2025-04-20 04:09:19,422 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,422 - INFO - Response: 200
+2025-04-20 04:09:19,458 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,458 - INFO - Response: 200
+2025-04-20 04:09:19,468 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,468 - INFO - Response: 200
+2025-04-20 04:09:19,505 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,506 - INFO - Response: 200
+2025-04-20 04:09:19,516 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,516 - INFO - Response: 200
+2025-04-20 04:09:19,597 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,598 - INFO - Response: 200
+2025-04-20 04:09:19,641 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,641 - INFO - Response: 200
+2025-04-20 04:09:19,642 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,643 - INFO - Response: 200
+2025-04-20 04:09:19,883 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,883 - INFO - Response: 200
+2025-04-20 04:09:19,886 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,887 - INFO - Response: 200
+2025-04-20 04:09:19,899 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,899 - INFO - Response: 200
+2025-04-20 04:09:19,903 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,903 - INFO - Response: 200
+2025-04-20 04:09:19,910 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,911 - INFO - Response: 200
+2025-04-20 04:09:19,931 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,931 - INFO - Response: 200
+2025-04-20 04:09:19,972 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:19,972 - INFO - Response: 200
+2025-04-20 04:09:20,109 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,109 - INFO - Response: 200
+2025-04-20 04:09:20,207 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,207 - INFO - Response: 200
+2025-04-20 04:09:20,213 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,213 - INFO - Response: 200
+2025-04-20 04:09:20,215 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,216 - INFO - Response: 200
+2025-04-20 04:09:20,317 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,317 - INFO - Response: 200
+2025-04-20 04:09:20,409 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,410 - INFO - Response: 200
+2025-04-20 04:09:20,437 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,437 - INFO - Response: 200
+2025-04-20 04:09:20,473 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,473 - INFO - Response: 200
+2025-04-20 04:09:20,501 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,501 - INFO - Response: 200
+2025-04-20 04:09:20,507 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,507 - INFO - Response: 200
+2025-04-20 04:09:20,580 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,580 - INFO - Response: 200
+2025-04-20 04:09:20,642 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,642 - INFO - Response: 200
+2025-04-20 04:09:20,755 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,756 - INFO - Response: 200
+2025-04-20 04:09:20,757 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,757 - INFO - Response: 200
+2025-04-20 04:09:20,798 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,798 - INFO - Response: 200
+2025-04-20 04:09:20,838 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,839 - INFO - Response: 200
+2025-04-20 04:09:20,845 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,846 - INFO - Response: 200
+2025-04-20 04:09:20,963 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,963 - INFO - Response: 200
+2025-04-20 04:09:20,979 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:20,979 - INFO - Response: 200
+2025-04-20 04:09:21,011 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,012 - INFO - Response: 200
+2025-04-20 04:09:21,033 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,033 - INFO - Response: 200
+2025-04-20 04:09:21,062 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,063 - INFO - Response: 200
+2025-04-20 04:09:21,097 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,097 - INFO - Response: 200
+2025-04-20 04:09:21,117 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,118 - INFO - Response: 200
+2025-04-20 04:09:21,123 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,123 - INFO - Response: 200
+2025-04-20 04:09:21,159 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,160 - INFO - Response: 200
+2025-04-20 04:09:21,185 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,186 - INFO - Response: 200
+2025-04-20 04:09:21,198 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,198 - INFO - Response: 200
+2025-04-20 04:09:21,222 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,223 - INFO - Response: 200
+2025-04-20 04:09:21,410 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,410 - INFO - Response: 200
+2025-04-20 04:09:21,520 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,520 - INFO - Response: 200
+2025-04-20 04:09:21,569 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,569 - INFO - Response: 200
+2025-04-20 04:09:21,647 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,647 - INFO - Response: 200
+2025-04-20 04:09:21,719 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,720 - INFO - Response: 200
+2025-04-20 04:09:21,740 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,741 - INFO - Response: 200
+2025-04-20 04:09:21,746 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,747 - INFO - Response: 200
+2025-04-20 04:09:21,788 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,788 - INFO - Response: 200
+2025-04-20 04:09:21,892 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,892 - INFO - Response: 200
+2025-04-20 04:09:21,933 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:21,933 - INFO - Response: 200
+2025-04-20 04:09:22,009 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,009 - INFO - Response: 200
+2025-04-20 04:09:22,040 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,041 - INFO - Response: 200
+2025-04-20 04:09:22,043 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,044 - INFO - Response: 200
+2025-04-20 04:09:22,117 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,118 - INFO - Response: 200
+2025-04-20 04:09:22,165 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,165 - INFO - Response: 200
+2025-04-20 04:09:22,179 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,180 - INFO - Response: 200
+2025-04-20 04:09:22,224 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,224 - INFO - Response: 200
+2025-04-20 04:09:22,281 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,282 - INFO - Response: 200
+2025-04-20 04:09:22,297 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,298 - INFO - Response: 200
+2025-04-20 04:09:22,298 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,298 - INFO - Response: 200
+2025-04-20 04:09:22,388 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,388 - INFO - Response: 200
+2025-04-20 04:09:22,429 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,429 - INFO - Response: 200
+2025-04-20 04:09:22,511 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,512 - INFO - Response: 200
+2025-04-20 04:09:22,580 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,580 - INFO - Response: 200
+2025-04-20 04:09:22,602 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,603 - INFO - Response: 200
+2025-04-20 04:09:22,608 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,608 - INFO - Response: 200
+2025-04-20 04:09:22,635 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,636 - INFO - Response: 200
+2025-04-20 04:09:22,675 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,675 - INFO - Response: 200
+2025-04-20 04:09:22,676 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,676 - INFO - Response: 200
+2025-04-20 04:09:22,802 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,802 - INFO - Response: 200
+2025-04-20 04:09:22,865 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,865 - INFO - Response: 200
+2025-04-20 04:09:22,891 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,891 - INFO - Response: 200
+2025-04-20 04:09:22,901 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,902 - INFO - Response: 200
+2025-04-20 04:09:22,921 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,921 - INFO - Response: 200
+2025-04-20 04:09:22,957 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:22,958 - INFO - Response: 200
+2025-04-20 04:09:23,005 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,005 - INFO - Response: 200
+2025-04-20 04:09:23,019 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,020 - INFO - Response: 200
+2025-04-20 04:09:23,021 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,021 - INFO - Response: 200
+2025-04-20 04:09:23,248 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,249 - INFO - Response: 200
+2025-04-20 04:09:23,361 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,361 - INFO - Response: 200
+2025-04-20 04:09:23,373 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,373 - INFO - Response: 200
+2025-04-20 04:09:23,418 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,419 - INFO - Response: 200
+2025-04-20 04:09:23,433 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,434 - INFO - Response: 200
+2025-04-20 04:09:23,438 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,439 - INFO - Response: 200
+2025-04-20 04:09:23,448 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,449 - INFO - Response: 200
+2025-04-20 04:09:23,463 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,464 - INFO - Response: 200
+2025-04-20 04:09:23,574 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,575 - INFO - Response: 200
+2025-04-20 04:09:23,807 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,807 - INFO - Response: 200
+2025-04-20 04:09:23,831 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,831 - INFO - Response: 200
+2025-04-20 04:09:23,943 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,944 - INFO - Response: 200
+2025-04-20 04:09:23,999 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:23,999 - INFO - Response: 200
+2025-04-20 04:09:24,002 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,002 - INFO - Response: 200
+2025-04-20 04:09:24,023 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,023 - INFO - Response: 200
+2025-04-20 04:09:24,026 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,026 - INFO - Response: 200
+2025-04-20 04:09:24,044 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,045 - INFO - Response: 200
+2025-04-20 04:09:24,130 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,130 - INFO - Response: 200
+2025-04-20 04:09:24,145 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,145 - INFO - Response: 200
+2025-04-20 04:09:24,205 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,205 - INFO - Response: 200
+2025-04-20 04:09:24,248 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,248 - INFO - Response: 200
+2025-04-20 04:09:24,274 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,274 - INFO - Response: 200
+2025-04-20 04:09:24,358 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,358 - INFO - Response: 200
+2025-04-20 04:09:24,423 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,423 - INFO - Response: 200
+2025-04-20 04:09:24,474 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,475 - INFO - Response: 200
+2025-04-20 04:09:24,477 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,477 - INFO - Response: 200
+2025-04-20 04:09:24,634 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,634 - INFO - Response: 200
+2025-04-20 04:09:24,692 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,692 - INFO - Response: 200
+2025-04-20 04:09:24,767 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,767 - INFO - Response: 200
+2025-04-20 04:09:24,885 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,885 - INFO - Response: 200
+2025-04-20 04:09:24,898 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,898 - INFO - Response: 200
+2025-04-20 04:09:24,904 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,905 - INFO - Response: 200
+2025-04-20 04:09:24,938 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,938 - INFO - Response: 200
+2025-04-20 04:09:24,970 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:24,970 - INFO - Response: 200
+2025-04-20 04:09:25,022 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,022 - INFO - Response: 200
+2025-04-20 04:09:25,075 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,076 - INFO - Response: 200
+2025-04-20 04:09:25,227 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,227 - INFO - Response: 200
+2025-04-20 04:09:25,270 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,271 - INFO - Response: 200
+2025-04-20 04:09:25,310 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,310 - INFO - Response: 200
+2025-04-20 04:09:25,331 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,332 - INFO - Response: 200
+2025-04-20 04:09:25,341 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,341 - INFO - Response: 200
+2025-04-20 04:09:25,349 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,350 - INFO - Response: 200
+2025-04-20 04:09:25,359 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,359 - INFO - Response: 200
+2025-04-20 04:09:25,423 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,424 - INFO - Response: 200
+2025-04-20 04:09:25,444 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,445 - INFO - Response: 200
+2025-04-20 04:09:25,464 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,464 - INFO - Response: 200
+2025-04-20 04:09:25,568 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,568 - INFO - Response: 200
+2025-04-20 04:09:25,644 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,645 - INFO - Response: 200
+2025-04-20 04:09:25,685 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,686 - INFO - Response: 200
+2025-04-20 04:09:25,830 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,831 - INFO - Response: 200
+2025-04-20 04:09:25,907 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,908 - INFO - Response: 200
+2025-04-20 04:09:25,937 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,937 - INFO - Response: 200
+2025-04-20 04:09:25,958 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,958 - INFO - Response: 200
+2025-04-20 04:09:25,973 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,974 - INFO - Response: 200
+2025-04-20 04:09:25,987 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:25,987 - INFO - Response: 200
+2025-04-20 04:09:26,150 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,150 - INFO - Response: 200
+2025-04-20 04:09:26,157 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,158 - INFO - Response: 200
+2025-04-20 04:09:26,182 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,182 - INFO - Response: 200
+2025-04-20 04:09:26,192 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,192 - INFO - Response: 200
+2025-04-20 04:09:26,249 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,250 - INFO - Response: 200
+2025-04-20 04:09:26,272 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,273 - INFO - Response: 200
+2025-04-20 04:09:26,305 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,306 - INFO - Response: 200
+2025-04-20 04:09:26,357 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,357 - INFO - Response: 200
+2025-04-20 04:09:26,412 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,412 - INFO - Response: 200
+2025-04-20 04:09:26,512 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,512 - INFO - Response: 200
+2025-04-20 04:09:26,536 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,536 - INFO - Response: 200
+2025-04-20 04:09:26,610 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,611 - INFO - Response: 200
+2025-04-20 04:09:26,694 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,694 - INFO - Response: 200
+2025-04-20 04:09:26,727 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,727 - INFO - Response: 200
+2025-04-20 04:09:26,792 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,792 - INFO - Response: 200
+2025-04-20 04:09:26,808 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,808 - INFO - Response: 200
+2025-04-20 04:09:26,882 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,883 - INFO - Response: 200
+2025-04-20 04:09:26,925 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,926 - INFO - Response: 200
+2025-04-20 04:09:26,956 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:26,956 - INFO - Response: 200
+2025-04-20 04:09:27,001 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,002 - INFO - Response: 200
+2025-04-20 04:09:27,219 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,219 - INFO - Response: 200
+2025-04-20 04:09:27,238 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,238 - INFO - Response: 200
+2025-04-20 04:09:27,278 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,279 - INFO - Response: 200
+2025-04-20 04:09:27,303 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,303 - INFO - Response: 200
+2025-04-20 04:09:27,325 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,325 - INFO - Response: 200
+2025-04-20 04:09:27,359 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,360 - INFO - Response: 200
+2025-04-20 04:09:27,394 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,395 - INFO - Response: 200
+2025-04-20 04:09:27,417 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,417 - INFO - Response: 200
+2025-04-20 04:09:27,496 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,496 - INFO - Response: 200
+2025-04-20 04:09:27,525 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,525 - INFO - Response: 200
+2025-04-20 04:09:27,534 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,535 - INFO - Response: 200
+2025-04-20 04:09:27,542 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,542 - INFO - Response: 200
+2025-04-20 04:09:27,584 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,585 - INFO - Response: 200
+2025-04-20 04:09:27,730 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,730 - INFO - Response: 200
+2025-04-20 04:09:27,811 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,811 - INFO - Response: 200
+2025-04-20 04:09:27,848 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:27,848 - INFO - Response: 200
+2025-04-20 04:09:28,028 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,029 - INFO - Response: 200
+2025-04-20 04:09:28,075 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,075 - INFO - Response: 200
+2025-04-20 04:09:28,078 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,078 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,079 - INFO - Response: 200
+2025-04-20 04:09:28,079 - INFO - Response: 200
+2025-04-20 04:09:28,102 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,103 - INFO - Response: 200
+2025-04-20 04:09:28,104 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,105 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,105 - INFO - Response: 200
+2025-04-20 04:09:28,105 - INFO - Response: 200
+2025-04-20 04:09:28,137 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,137 - INFO - Response: 200
+2025-04-20 04:09:28,265 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,265 - INFO - Response: 200
+2025-04-20 04:09:28,289 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,289 - INFO - Response: 200
+2025-04-20 04:09:28,383 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,384 - INFO - Response: 200
+2025-04-20 04:09:28,429 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,430 - INFO - Response: 200
+2025-04-20 04:09:28,519 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,519 - INFO - Response: 200
+2025-04-20 04:09:28,668 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,669 - INFO - Response: 200
+2025-04-20 04:09:28,677 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,678 - INFO - Response: 200
+2025-04-20 04:09:28,713 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,713 - INFO - Response: 200
+2025-04-20 04:09:28,787 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,787 - INFO - Response: 200
+2025-04-20 04:09:28,801 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,801 - INFO - Response: 200
+2025-04-20 04:09:28,830 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,830 - INFO - Response: 200
+2025-04-20 04:09:28,881 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,881 - INFO - Response: 200
+2025-04-20 04:09:28,913 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,913 - INFO - Response: 200
+2025-04-20 04:09:28,982 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,983 - INFO - Response: 200
+2025-04-20 04:09:28,996 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:28,996 - INFO - Response: 200
+2025-04-20 04:09:29,073 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,073 - INFO - Response: 200
+2025-04-20 04:09:29,166 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,166 - INFO - Response: 200
+2025-04-20 04:09:29,241 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,241 - INFO - Response: 200
+2025-04-20 04:09:29,287 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,287 - INFO - Response: 200
+2025-04-20 04:09:29,321 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,321 - INFO - Response: 200
+2025-04-20 04:09:29,353 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,354 - INFO - Response: 200
+2025-04-20 04:09:29,375 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,375 - INFO - Response: 200
+2025-04-20 04:09:29,472 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,472 - INFO - Response: 200
+2025-04-20 04:09:29,478 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,478 - INFO - Response: 200
+2025-04-20 04:09:29,518 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,518 - INFO - Response: 200
+2025-04-20 04:09:29,585 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,585 - INFO - Response: 200
+2025-04-20 04:09:29,698 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,698 - INFO - Response: 200
+2025-04-20 04:09:29,751 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,752 - INFO - Response: 200
+2025-04-20 04:09:29,806 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,807 - INFO - Response: 200
+2025-04-20 04:09:29,850 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,851 - INFO - Response: 200
+2025-04-20 04:09:29,882 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,882 - INFO - Response: 200
+2025-04-20 04:09:29,931 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,932 - INFO - Response: 200
+2025-04-20 04:09:29,955 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:29,955 - INFO - Response: 200
+2025-04-20 04:09:30,021 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,022 - INFO - Response: 200
+2025-04-20 04:09:30,025 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,025 - INFO - Response: 200
+2025-04-20 04:09:30,175 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,176 - INFO - Response: 200
+2025-04-20 04:09:30,182 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,183 - INFO - Response: 200
+2025-04-20 04:09:30,273 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,273 - INFO - Response: 200
+2025-04-20 04:09:30,276 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,276 - INFO - Response: 200
+2025-04-20 04:09:30,284 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,284 - INFO - Response: 200
+2025-04-20 04:09:30,354 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,354 - INFO - Response: 200
+2025-04-20 04:09:30,487 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,487 - INFO - Response: 200
+2025-04-20 04:09:30,573 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,574 - INFO - Response: 200
+2025-04-20 04:09:30,577 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,577 - INFO - Response: 200
+2025-04-20 04:09:30,579 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,580 - INFO - Response: 200
+2025-04-20 04:09:30,593 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,593 - INFO - Response: 200
+2025-04-20 04:09:30,597 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,597 - INFO - Response: 200
+2025-04-20 04:09:30,644 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,644 - INFO - Response: 200
+2025-04-20 04:09:30,831 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,832 - INFO - Response: 200
+2025-04-20 04:09:30,854 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,855 - INFO - Response: 200
+2025-04-20 04:09:30,887 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:30,888 - INFO - Response: 200
+2025-04-20 04:09:31,044 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,045 - INFO - Response: 200
+2025-04-20 04:09:31,120 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,120 - INFO - Response: 200
+2025-04-20 04:09:31,126 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,127 - INFO - Response: 200
+2025-04-20 04:09:31,131 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,131 - INFO - Response: 200
+2025-04-20 04:09:31,215 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,216 - INFO - Response: 200
+2025-04-20 04:09:31,260 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,261 - INFO - Response: 200
+2025-04-20 04:09:31,359 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,360 - INFO - Response: 200
+2025-04-20 04:09:31,368 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,368 - INFO - Response: 200
+2025-04-20 04:09:31,387 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,388 - INFO - Response: 200
+2025-04-20 04:09:31,396 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,397 - INFO - Response: 200
+2025-04-20 04:09:31,426 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,426 - INFO - Response: 200
+2025-04-20 04:09:31,468 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,469 - INFO - Response: 200
+2025-04-20 04:09:31,617 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,618 - INFO - Response: 200
+2025-04-20 04:09:31,650 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,651 - INFO - Response: 200
+2025-04-20 04:09:31,710 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,710 - INFO - Response: 200
+2025-04-20 04:09:31,748 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,748 - INFO - Response: 200
+2025-04-20 04:09:31,774 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,775 - INFO - Response: 200
+2025-04-20 04:09:31,782 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,783 - INFO - Response: 200
+2025-04-20 04:09:31,910 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,911 - INFO - Response: 200
+2025-04-20 04:09:31,950 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,950 - INFO - Response: 200
+2025-04-20 04:09:31,958 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:31,958 - INFO - Response: 200
+2025-04-20 04:09:32,020 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,020 - INFO - Response: 200
+2025-04-20 04:09:32,066 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,066 - INFO - Response: 200
+2025-04-20 04:09:32,192 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,193 - INFO - Response: 200
+2025-04-20 04:09:32,295 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,296 - INFO - Response: 200
+2025-04-20 04:09:32,326 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,326 - INFO - Response: 200
+2025-04-20 04:09:32,389 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,389 - INFO - Response: 200
+2025-04-20 04:09:32,398 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,398 - INFO - Response: 200
+2025-04-20 04:09:32,420 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,420 - INFO - Response: 200
+2025-04-20 04:09:32,428 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,428 - INFO - Response: 200
+2025-04-20 04:09:32,520 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,520 - INFO - Response: 200
+2025-04-20 04:09:32,529 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,530 - INFO - Response: 200
+2025-04-20 04:09:32,684 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,684 - INFO - Response: 200
+2025-04-20 04:09:32,721 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,722 - INFO - Response: 200
+2025-04-20 04:09:32,726 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,726 - INFO - Response: 200
+2025-04-20 04:09:32,730 - INFO - Request: GET http://127.0.0.1:8000/api/
+2025-04-20 04:09:32,730 - INFO - Response: 200
+2025-04-20 04:10:46,885 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:10:46,888 - INFO - Response: 200
+2025-04-20 04:11:20,748 - INFO - Shutting down the application...
+2025-04-20 04:11:20,753 - INFO - Disconnected from the database
+2025-04-20 04:11:20,753 - INFO - Application shut down successfully.
+2025-04-20 04:11:21,348 - INFO - Starting up the application...
+2025-04-20 04:11:21,357 - INFO - Application started up successfully.
+2025-04-20 04:11:52,355 - INFO - Shutting down the application...
+2025-04-20 04:11:52,360 - INFO - Disconnected from the database
+2025-04-20 04:11:52,360 - INFO - Application shut down successfully.
+2025-04-20 04:11:52,968 - INFO - Starting up the application...
+2025-04-20 04:11:52,977 - INFO - Application started up successfully.
+2025-04-20 04:12:22,676 - INFO - Shutting down the application...
+2025-04-20 04:12:22,681 - INFO - Disconnected from the database
+2025-04-20 04:12:22,681 - INFO - Application shut down successfully.
+2025-04-20 04:12:24,533 - INFO - Starting up the application...
+2025-04-20 04:12:24,543 - INFO - Application started up successfully.
+2025-04-20 04:12:38,691 - INFO - Shutting down the application...
+2025-04-20 04:12:38,695 - INFO - Disconnected from the database
+2025-04-20 04:12:38,695 - INFO - Application shut down successfully.
+2025-04-20 04:12:39,307 - INFO - Starting up the application...
+2025-04-20 04:12:39,316 - INFO - Application started up successfully.
+2025-04-20 04:12:43,733 - INFO - Shutting down the application...
+2025-04-20 04:12:43,737 - INFO - Disconnected from the database
+2025-04-20 04:12:43,737 - INFO - Application shut down successfully.
+2025-04-20 04:12:44,339 - INFO - Starting up the application...
+2025-04-20 04:12:44,348 - INFO - Application started up successfully.
+2025-04-20 04:12:55,859 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:12:55,866 - INFO - Response: 400
+2025-04-20 04:13:27,687 - INFO - Shutting down the application...
+2025-04-20 04:13:27,691 - INFO - Disconnected from the database
+2025-04-20 04:13:27,691 - INFO - Application shut down successfully.
+2025-04-20 04:13:28,277 - INFO - Starting up the application...
+2025-04-20 04:13:28,286 - INFO - Application started up successfully.
+2025-04-20 04:13:29,791 - INFO - Shutting down the application...
+2025-04-20 04:13:29,793 - INFO - Disconnected from the database
+2025-04-20 04:13:29,793 - INFO - Application shut down successfully.
+2025-04-20 04:13:30,376 - INFO - Starting up the application...
+2025-04-20 04:13:30,386 - INFO - Application started up successfully.
+2025-04-20 04:13:33,498 - INFO - Shutting down the application...
+2025-04-20 04:13:33,504 - INFO - Disconnected from the database
+2025-04-20 04:13:33,504 - INFO - Application shut down successfully.
+2025-04-20 04:13:34,094 - INFO - Starting up the application...
+2025-04-20 04:13:34,103 - INFO - Application started up successfully.
+2025-04-20 04:13:36,211 - INFO - Shutting down the application...
+2025-04-20 04:13:36,216 - INFO - Disconnected from the database
+2025-04-20 04:13:36,216 - INFO - Application shut down successfully.
+2025-04-20 04:13:36,836 - INFO - Starting up the application...
+2025-04-20 04:13:36,845 - INFO - Application started up successfully.
+2025-04-20 04:13:42,865 - INFO - Shutting down the application...
+2025-04-20 04:13:42,869 - INFO - Disconnected from the database
+2025-04-20 04:13:42,869 - INFO - Application shut down successfully.
+2025-04-20 04:13:43,482 - INFO - Starting up the application...
+2025-04-20 04:13:43,492 - INFO - Application started up successfully.
+2025-04-20 04:13:46,202 - INFO - Shutting down the application...
+2025-04-20 04:13:46,205 - INFO - Disconnected from the database
+2025-04-20 04:13:46,205 - INFO - Application shut down successfully.
+2025-04-20 04:13:46,790 - INFO - Starting up the application...
+2025-04-20 04:13:46,799 - INFO - Application started up successfully.
+2025-04-20 04:13:49,314 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:14:05,656 - INFO - Request: POST http://127.0.0.1:8000/api/v1/auth/refresh
+2025-04-20 04:14:05,657 - INFO - Response: 200
+2025-04-20 04:14:09,951 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:14:09,958 - INFO - Response: 400
+2025-04-20 04:14:54,922 - INFO - Shutting down the application...
+2025-04-20 04:14:54,925 - INFO - Disconnected from the database
+2025-04-20 04:14:54,925 - INFO - Application shut down successfully.
+2025-04-20 04:14:55,559 - INFO - Starting up the application...
+2025-04-20 04:14:55,568 - INFO - Application started up successfully.
+2025-04-20 04:14:56,767 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:14:56,772 - INFO - Response: 400
+2025-04-20 04:15:13,727 - INFO - Shutting down the application...
+2025-04-20 04:15:13,732 - INFO - Disconnected from the database
+2025-04-20 04:15:13,732 - INFO - Application shut down successfully.
+2025-04-20 04:15:14,345 - INFO - Starting up the application...
+2025-04-20 04:15:14,355 - INFO - Application started up successfully.
+2025-04-20 04:15:17,190 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:15:17,196 - INFO - Response: 400
+2025-04-20 04:15:23,361 - INFO - Request: GET http://127.0.0.1:8000/docs
+2025-04-20 04:15:23,362 - INFO - Response: 200
+2025-04-20 04:15:23,434 - INFO - Request: GET http://127.0.0.1:8000/openapi.json
+2025-04-20 04:15:23,448 - INFO - Response: 200
+2025-04-20 04:15:29,809 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:15:29,811 - INFO - Response: 400
+2025-04-20 04:16:07,427 - INFO - Shutting down the application...
+2025-04-20 04:16:07,428 - INFO - Disconnected from the database
+2025-04-20 04:16:07,428 - INFO - Application shut down successfully.
+2025-04-20 04:16:08,050 - INFO - Starting up the application...
+2025-04-20 04:16:08,057 - INFO - Application started up successfully.
+2025-04-20 04:16:13,477 - INFO - Shutting down the application...
+2025-04-20 04:16:13,479 - INFO - Disconnected from the database
+2025-04-20 04:16:13,479 - INFO - Application shut down successfully.
+2025-04-20 04:16:14,131 - INFO - Starting up the application...
+2025-04-20 04:16:14,141 - INFO - Application started up successfully.
+2025-04-20 04:16:17,788 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:16:17,793 - INFO - Response: 400
+2025-04-20 04:16:24,291 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:16:24,294 - INFO - Response: 400
+2025-04-20 04:16:36,374 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/?page=1&limit=10
+2025-04-20 04:16:36,377 - INFO - Response: 200
+2025-04-20 04:16:43,586 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:16:43,588 - INFO - Response: 400
+2025-04-20 04:17:37,007 - INFO - Shutting down the application...
+2025-04-20 04:17:37,009 - INFO - Disconnected from the database
+2025-04-20 04:17:37,009 - INFO - Application shut down successfully.
+2025-04-20 04:17:37,615 - INFO - Starting up the application...
+2025-04-20 04:17:37,624 - INFO - Application started up successfully.
+2025-04-20 04:17:39,868 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/?page=1&limit=10
+2025-04-20 04:17:39,873 - INFO - Response: 200
+2025-04-20 04:17:42,905 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:17:42,907 - INFO - Response: 200
+2025-04-20 04:19:05,391 - INFO - Shutting down the application...
+2025-04-20 04:19:05,394 - INFO - Disconnected from the database
+2025-04-20 04:19:05,394 - INFO - Application shut down successfully.
+2025-04-20 04:19:06,000 - INFO - Starting up the application...
+2025-04-20 04:19:06,010 - INFO - Application started up successfully.
+2025-04-20 04:19:14,941 - INFO - Shutting down the application...
+2025-04-20 04:19:14,945 - INFO - Disconnected from the database
+2025-04-20 04:19:14,945 - INFO - Application shut down successfully.
+2025-04-20 04:19:15,554 - INFO - Starting up the application...
+2025-04-20 04:19:15,563 - INFO - Application started up successfully.
+2025-04-20 04:19:22,885 - INFO - Shutting down the application...
+2025-04-20 04:19:22,889 - INFO - Disconnected from the database
+2025-04-20 04:19:22,890 - INFO - Application shut down successfully.
+2025-04-20 04:19:23,501 - INFO - Starting up the application...
+2025-04-20 04:19:23,510 - INFO - Application started up successfully.
+2025-04-20 04:19:28,225 - INFO - Shutting down the application...
+2025-04-20 04:19:28,229 - INFO - Disconnected from the database
+2025-04-20 04:19:28,229 - INFO - Application shut down successfully.
+2025-04-20 04:19:28,849 - INFO - Starting up the application...
+2025-04-20 04:19:28,858 - INFO - Application started up successfully.
+2025-04-20 04:19:42,701 - INFO - Shutting down the application...
+2025-04-20 04:19:42,705 - INFO - Disconnected from the database
+2025-04-20 04:19:42,705 - INFO - Application shut down successfully.
+2025-04-20 04:19:43,318 - INFO - Starting up the application...
+2025-04-20 04:19:43,327 - INFO - Application started up successfully.
+2025-04-20 04:19:47,740 - INFO - Shutting down the application...
+2025-04-20 04:19:47,742 - INFO - Disconnected from the database
+2025-04-20 04:19:47,742 - INFO - Application shut down successfully.
+2025-04-20 04:19:48,349 - INFO - Starting up the application...
+2025-04-20 04:19:48,357 - INFO - Application started up successfully.
+2025-04-20 04:19:56,282 - INFO - Shutting down the application...
+2025-04-20 04:19:56,286 - INFO - Disconnected from the database
+2025-04-20 04:19:56,286 - INFO - Application shut down successfully.
+2025-04-20 04:19:56,880 - INFO - Starting up the application...
+2025-04-20 04:19:56,889 - INFO - Application started up successfully.
+2025-04-20 04:20:07,527 - INFO - Shutting down the application...
+2025-04-20 04:20:07,530 - INFO - Disconnected from the database
+2025-04-20 04:20:07,530 - INFO - Application shut down successfully.
+2025-04-20 04:20:08,142 - INFO - Starting up the application...
+2025-04-20 04:20:08,152 - INFO - Application started up successfully.
+2025-04-20 04:20:18,788 - INFO - Shutting down the application...
+2025-04-20 04:20:18,792 - INFO - Disconnected from the database
+2025-04-20 04:20:18,792 - INFO - Application shut down successfully.
+2025-04-20 04:20:19,416 - INFO - Starting up the application...
+2025-04-20 04:20:19,425 - INFO - Application started up successfully.
+2025-04-20 04:20:27,454 - INFO - Shutting down the application...
+2025-04-20 04:20:27,457 - INFO - Disconnected from the database
+2025-04-20 04:20:27,457 - INFO - Application shut down successfully.
+2025-04-20 04:20:28,073 - INFO - Starting up the application...
+2025-04-20 04:20:28,081 - INFO - Application started up successfully.
+2025-04-20 04:20:50,252 - INFO - Shutting down the application...
+2025-04-20 04:20:50,256 - INFO - Disconnected from the database
+2025-04-20 04:20:50,256 - INFO - Application shut down successfully.
+2025-04-20 04:20:50,829 - INFO - Starting up the application...
+2025-04-20 04:20:50,838 - INFO - Application started up successfully.
+2025-04-20 04:21:03,079 - INFO - Shutting down the application...
+2025-04-20 04:21:03,083 - INFO - Disconnected from the database
+2025-04-20 04:21:03,083 - INFO - Application shut down successfully.
+2025-04-20 04:21:03,685 - INFO - Starting up the application...
+2025-04-20 04:21:03,694 - INFO - Application started up successfully.
+2025-04-20 04:21:13,025 - INFO - Shutting down the application...
+2025-04-20 04:21:13,029 - INFO - Disconnected from the database
+2025-04-20 04:21:13,029 - INFO - Application shut down successfully.
+2025-04-20 04:21:13,615 - INFO - Starting up the application...
+2025-04-20 04:21:13,624 - INFO - Application started up successfully.
+2025-04-20 04:21:15,430 - INFO - Shutting down the application...
+2025-04-20 04:21:15,433 - INFO - Disconnected from the database
+2025-04-20 04:21:15,433 - INFO - Application shut down successfully.
+2025-04-20 04:21:16,054 - INFO - Starting up the application...
+2025-04-20 04:21:16,061 - INFO - Application started up successfully.
+2025-04-20 04:21:29,605 - INFO - Shutting down the application...
+2025-04-20 04:21:29,607 - INFO - Disconnected from the database
+2025-04-20 04:21:29,607 - INFO - Application shut down successfully.
+2025-04-20 04:21:30,211 - INFO - Starting up the application...
+2025-04-20 04:21:30,219 - INFO - Application started up successfully.
+2025-04-20 04:21:35,535 - INFO - Shutting down the application...
+2025-04-20 04:21:35,538 - INFO - Disconnected from the database
+2025-04-20 04:21:35,538 - INFO - Application shut down successfully.
+2025-04-20 04:21:36,142 - INFO - Starting up the application...
+2025-04-20 04:21:36,151 - INFO - Application started up successfully.
+2025-04-20 04:22:17,583 - INFO - Shutting down the application...
+2025-04-20 04:22:17,587 - INFO - Disconnected from the database
+2025-04-20 04:22:17,587 - INFO - Application shut down successfully.
+2025-04-20 04:22:18,192 - INFO - Starting up the application...
+2025-04-20 04:22:18,202 - INFO - Application started up successfully.
+2025-04-20 04:22:21,313 - INFO - Shutting down the application...
+2025-04-20 04:22:21,318 - INFO - Disconnected from the database
+2025-04-20 04:22:21,318 - INFO - Application shut down successfully.
+2025-04-20 04:22:21,959 - INFO - Starting up the application...
+2025-04-20 04:22:21,969 - INFO - Application started up successfully.
+2025-04-20 04:22:38,730 - INFO - Shutting down the application...
+2025-04-20 04:22:38,734 - INFO - Disconnected from the database
+2025-04-20 04:22:38,735 - INFO - Application shut down successfully.
+2025-04-20 04:22:39,355 - INFO - Starting up the application...
+2025-04-20 04:22:39,364 - INFO - Application started up successfully.
+2025-04-20 04:22:41,473 - INFO - Shutting down the application...
+2025-04-20 04:22:41,475 - INFO - Disconnected from the database
+2025-04-20 04:22:41,476 - INFO - Application shut down successfully.
+2025-04-20 04:22:42,106 - INFO - Starting up the application...
+2025-04-20 04:22:42,115 - INFO - Application started up successfully.
+2025-04-20 04:23:01,879 - INFO - Shutting down the application...
+2025-04-20 04:23:01,883 - INFO - Disconnected from the database
+2025-04-20 04:23:01,883 - INFO - Application shut down successfully.
+2025-04-20 04:23:02,518 - INFO - Starting up the application...
+2025-04-20 04:23:02,527 - INFO - Application started up successfully.
+2025-04-20 04:23:06,541 - INFO - Shutting down the application...
+2025-04-20 04:23:06,545 - INFO - Disconnected from the database
+2025-04-20 04:23:06,545 - INFO - Application shut down successfully.
+2025-04-20 04:23:07,181 - INFO - Starting up the application...
+2025-04-20 04:23:07,190 - INFO - Application started up successfully.
+2025-04-20 04:23:08,572 - INFO - Request: GET http://127.0.0.1:8000/docs
+2025-04-20 04:23:08,573 - INFO - Response: 200
+2025-04-20 04:23:08,655 - INFO - Request: GET http://127.0.0.1:8000/openapi.json
+2025-04-20 04:23:08,669 - INFO - Response: 200
+2025-04-20 04:23:24,622 - INFO - Request: GET http://127.0.0.1:8000/api/v1/auth/info
+2025-04-20 04:23:24,634 - INFO - Response: 200
+2025-04-20 04:23:45,017 - INFO - Shutting down the application...
+2025-04-20 04:23:45,023 - INFO - Disconnected from the database
+2025-04-20 04:23:45,023 - INFO - Application shut down successfully.

@@ -116,7 +116,7 @@ async def list_analysis_results(
         raise HTTPException(status_code=400, detail=str(e))
     
 
-@router.get("/videos/{video_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[AnalysisResultResponse])
+@router.get("/videos/{video_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[AnalysisResultResponse]])
 async def get_analysis_result_by_video_id(
     video_id: int,
     use_case: AnalysisResultUseCase = Depends(get_analysis_result_use_case),
@@ -128,7 +128,7 @@ async def get_analysis_result_by_video_id(
         analysis_result = await use_case.get_analysis_result_by_fields(video_id=video_id)
         if not analysis_result:
             raise HTTPException(status_code=404, detail="Analysis result not found")
-        return GeneralResponse[AnalysisResultResponse](
+        return GeneralResponse[List[AnalysisResultResponse]](
             status="success",
             message="Analysis result retrieved successfully",
             data=analysis_result

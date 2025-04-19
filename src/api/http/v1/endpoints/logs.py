@@ -112,7 +112,7 @@ async def list_logs(
         raise HTTPException(status_code=400, detail=str(e))
     
 
-@router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[LogsResponse])
+@router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[LogsResponse]])
 async def get_log_by_fields(
     user_id: int,
     use_case: LogsUseCase = Depends(get_logs_use_case),
@@ -124,7 +124,7 @@ async def get_log_by_fields(
         log = await use_case.get_log_by_fields(user_id=user_id)
         if not log:
             raise HTTPException(status_code=404, detail="Log not found")
-        return GeneralResponse[LogsResponse](
+        return GeneralResponse[List[LogsResponse]](
             status="success",
             message="Log retrieved successfully",
             data=log

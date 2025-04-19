@@ -1,7 +1,9 @@
-from fastapi import APIRouter, Depends, HTTPException
+from authx import TokenPayload
+from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 from src.schemas.video_schema import VideoCreate, VideoUpdate, VideoResponse
 from src.schemas.responses.general_response import GeneralResponse
 from src.usecases.video_usecase import VideoUseCase, get_video_use_case
+from src.usecases.user_usecase import UserUseCase, get_user_use_case
 from src.api.http.dependencies import security
 from typing import List
 
@@ -114,7 +116,7 @@ async def list_videos(
         raise HTTPException(status_code=400, detail=str(e))
     
 
-@router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[VideoResponse])
+@router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[VideoResponse]])
 async def get_video_by_user(
     user_id: int,
     use_case: VideoUseCase = Depends(get_video_use_case),
@@ -126,10 +128,35 @@ async def get_video_by_user(
         video = await use_case.get_video_by_fields(user_id=user_id)
         if not video:
             raise HTTPException(status_code=404, detail="Video not found")
-        return GeneralResponse[VideoResponse](
+        return GeneralResponse[List[VideoResponse]](
             status="success",
             message="Video retrieved successfully",
             data=video
         )
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+    
+
+@router.post("/s3/upload", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[VideoResponse])
+async def upload_video_file(
+    file: UploadFile = File(...),
+    user: TokenPayload = Depends(security.access_token_required),
+    video_use_case: VideoUseCase = Depends(get_video_use_case),
+    user_use_case: UserUseCase = Depends(get_user_use_case),
+) -> VideoResponse:
+    try:
+        user_info = await user_use_case.get_user_by_fields(email=user.sub)
+        if not user_info:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        file_name = f"{user_info.email}/{file.filename}"
+        video_url = await video_use_case.upload_video_file(user_info.id, file.file, file_name)
+        
+        return GeneralResponse[VideoResponse](
+            status="success",
+            message="Video uploaded successfully",
+            data=video_url
+        )
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    

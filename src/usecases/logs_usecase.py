@@ -34,7 +34,7 @@ class LogsUseCase(ABC):
         pass
 
     @abstractmethod
-    async def get_log_by_fields(self, **kwargs) -> Optional[LogsResponse]:
+    async def get_log_by_fields(self, **kwargs) -> Optional[List[LogsResponse]]:
         """Retrieve a log entry by specific fields."""
         pass
 
@@ -60,7 +60,7 @@ class LogsUseCaseImpl(LogsUseCase):
     async def list_logs(self, page: int = 1, limit: int = 10) -> List[LogsResponse]:
         return await self.repository.list(limit=limit, offset=(page - 1) * limit)
     
-    async def get_log_by_fields(self, **kwargs) -> Optional[LogsResponse]:
+    async def get_log_by_fields(self, **kwargs) -> Optional[List[LogsResponse]]:
         return await self.repository.get_by_fields(**kwargs)
     
 
