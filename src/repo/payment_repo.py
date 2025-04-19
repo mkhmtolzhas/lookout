@@ -72,7 +72,7 @@ class PaymentRepository(Repository):
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
-            payments = result.scalars().first()
+            payments = result.scalars().all()
             return [model_to_schema(payment, PaymentResponse) for payment in payments]
 
 

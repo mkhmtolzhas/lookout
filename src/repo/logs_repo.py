@@ -72,7 +72,7 @@ class LogsRepository(Repository):
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
-            logs = result.scalars().first()
+            logs = result.scalars().all()
             return [model_to_schema(log, LogsResponse) for log in logs]
 
 

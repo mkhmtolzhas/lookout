@@ -1,0 +1,48 @@
+2025-04-20 04:30:49,284 - INFO - Starting up the application...
+2025-04-20 04:30:49,293 - INFO - Application started up successfully.
+2025-04-20 04:30:58,889 - INFO - Request: GET http://127.0.0.1:8000/
+2025-04-20 04:30:58,889 - INFO - Response: 404
+2025-04-20 04:30:58,924 - INFO - Request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-20 04:30:58,924 - INFO - Response: 404
+2025-04-20 04:31:03,122 - INFO - Request: GET http://127.0.0.1:8000/dcos
+2025-04-20 04:31:03,122 - INFO - Response: 404
+2025-04-20 04:31:03,140 - INFO - Request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-20 04:31:03,141 - INFO - Response: 404
+2025-04-20 04:31:08,206 - INFO - Request: GET http://127.0.0.1:8000/docs
+2025-04-20 04:31:08,206 - INFO - Response: 200
+2025-04-20 04:31:08,275 - INFO - Request: GET http://127.0.0.1:8000/openapi.json
+2025-04-20 04:31:08,286 - INFO - Response: 200
+2025-04-20 04:31:16,427 - INFO - Request: POST http://127.0.0.1:8000/api/v1/auth/refresh
+2025-04-20 04:31:16,429 - INFO - Response: 200
+2025-04-20 04:31:25,637 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:31:25,642 - INFO - Response: 400
+2025-04-20 04:31:30,428 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:31:30,430 - INFO - Response: 400
+2025-04-20 04:31:30,560 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:31:30,562 - INFO - Response: 400
+2025-04-20 04:31:30,705 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:31:30,707 - INFO - Response: 400
+2025-04-20 04:31:30,848 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:31:30,850 - INFO - Response: 400
+2025-04-20 04:31:31,018 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:31:31,020 - INFO - Response: 400
+2025-04-20 04:32:09,040 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 04:32:09,041 - INFO - Response: 400
+2025-04-20 04:32:40,433 - INFO - Shutting down the application...
+2025-04-20 04:32:40,436 - INFO - Disconnected from the database
+2025-04-20 04:32:40,436 - INFO - Application shut down successfully.
+2025-04-20 04:32:41,053 - INFO - Starting up the application...
+2025-04-20 04:32:41,062 - INFO - Application started up successfully.
+2025-04-20 04:32:47,080 - INFO - Shutting down the application...
+2025-04-20 04:32:47,084 - INFO - Disconnected from the database
+2025-04-20 04:32:47,084 - INFO - Application shut down successfully.
+2025-04-20 04:32:47,710 - INFO - Starting up the application...
+2025-04-20 04:32:47,720 - INFO - Application started up successfully.
+2025-04-20 04:32:51,733 - INFO - Shutting down the application...
+2025-04-20 04:32:51,737 - INFO - Disconnected from the database
+2025-04-20 04:32:51,737 - INFO - Application shut down successfully.
+2025-04-20 04:32:52,376 - INFO - Starting up the application...
+2025-04-20 04:32:52,386 - INFO - Application started up successfully.
+2025-04-20 04:32:56,298 - INFO - Shutting down the application...
+2025-04-20 04:32:56,303 - INFO - Disconnected from the database
+2025-04-20 04:32:56,303 - INFO - Application shut down successfully.

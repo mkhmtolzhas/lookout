@@ -72,7 +72,7 @@ class AnalysisResultRepository(Repository):
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
-            analysis_results = result.scalars().first()
+            analysis_results = result.scalars().all()
             return [model_to_schema(analysis_result, AnalysisResultResponse) for analysis_result in analysis_results]
         
 
