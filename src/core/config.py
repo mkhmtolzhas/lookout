@@ -16,6 +16,12 @@ class Settings(BaseSettings):
     # JWT
     jwt_secret: str
 
+    # S3
+    s3_access_key: str
+    s3_secret_key: str
+    s3_bucket_name: str
+    s3_region_name: str = "us-east-1"
+
     class Config:
         env_file = ".env"
 
