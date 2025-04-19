@@ -18,7 +18,16 @@ Welcome to the **Lookout** project! This repository is designed to [briefly desc
     ```bash
     cd lookout
     ```
-3. Install dependencies:
+3. Navigate to the project directory:
+    ```bash
+    cd lookout
+    ```
+4. Copy the example environment file and configure it:
+    ```bash
+    cp .env.example .env
+    # Or just create .env with .env.example fields
+    ```
+5. Install dependencies:
     ```bash
     poetry install
     # Or
