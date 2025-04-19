@@ -28,6 +28,8 @@ class FileLogger(Logger):
     def __init__(self, name: str, log_file: str):
         self.logger = logging.getLogger(name)
         self.logger.setLevel(logging.DEBUG)
+        self.logger.propagate = False
+
 
 
         file_handler = logging.FileHandler(log_file, encoding="utf-8")
