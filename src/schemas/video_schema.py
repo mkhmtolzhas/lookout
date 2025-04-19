@@ -13,7 +13,8 @@ class VideoBase(BaseModel):
 
     class Config:
         from_attributes = True
-    
+
+
 class VideoCreate(VideoBase):
     """
     Schema for creating a new video entry.

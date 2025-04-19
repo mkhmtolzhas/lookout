@@ -34,7 +34,7 @@ class AnalysisResultUseCase(ABC):
         pass
 
     @abstractmethod
-    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[AnalysisResultResponse]:
+    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[List[AnalysisResultResponse]]:
         """Retrieve an analysis result by specific fields."""
         pass
 
@@ -59,7 +59,7 @@ class AnalysisResultUseCaseImpl(AnalysisResultUseCase):
     async def list_analysis_results(self, page: int = 1, limit: int = 10) -> List[AnalysisResultResponse]:
         return await self.repository.list(limit=limit, offset=(page - 1) * limit)
     
-    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[AnalysisResultResponse]:
+    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[List[AnalysisResultResponse]]:
         return await self.repository.get_by_fields(**kwargs)
     
 

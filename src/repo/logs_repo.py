@@ -67,15 +67,13 @@ class LogsRepository(Repository):
             logs = result.scalars().all()
             return [model_to_schema(log, LogsResponse) for log in logs]
         
-    async def get_by_fields(self, **kwargs) -> LogsResponse:
+    async def get_by_fields(self, **kwargs) -> List[LogsResponse]:
         """Retrieve a log by specific fields."""
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
-            log = result.scalars().first()
-            if log:
-                return model_to_schema(log, LogsResponse)
-            return None
+            logs = result.scalars().first()
+            return [model_to_schema(log, LogsResponse) for log in logs]
 
 
 logs_repository = LogsRepository(postgres.connection_pool_factory(), LogsModel)

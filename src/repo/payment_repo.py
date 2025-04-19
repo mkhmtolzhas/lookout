@@ -67,15 +67,13 @@ class PaymentRepository(Repository):
             payments = result.scalars().all()
             return [model_to_schema(payment, PaymentResponse) for payment in payments]
         
-    async def get_by_fields(self, **kwargs) -> PaymentResponse:
+    async def get_by_fields(self, **kwargs) -> List[PaymentResponse]:
         """Retrieve a payment by specific fields."""
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
             result = await session.execute(query)
-            payment = result.scalars().first()
-            if payment:
-                return model_to_schema(payment, PaymentResponse)
-            return None
+            payments = result.scalars().first()
+            return [model_to_schema(payment, PaymentResponse) for payment in payments]
 
 
 payment_repository = PaymentRepository(postgres.connection_pool_factory(), PaymentModel)
