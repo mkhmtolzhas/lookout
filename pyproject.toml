@@ -23,6 +23,7 @@ dependencies = [
 ]
 
 [tool.poetry]
+package-mode = false
 packages = [{include = "lookout", from = "src"}]
 
 
