@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
 from .mixins.id_mixin import IDMixin
+from typing import Optional
 from .mixins.time_mixin import CreatedAtMixin
 
 
@@ -8,6 +9,7 @@ class AnalysisResultBase(BaseModel):
     Base schema for analysis result.
     """
     video_id: int = Field(..., description="ID of the video associated with the analysis result")
+    task_id: str = Field(..., description="ID of the task associated with the analysis result")
     prediction: str = Field(..., description="Prediction result of the analysis")
     confidence: float = Field(..., description="Confidence level of the prediction")
 

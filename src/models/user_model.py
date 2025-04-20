@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from .base_model import BaseModel
 from sqlalchemy.orm import Mapped, mapped_column
-from sqlalchemy import String, Integer, ForeignKey, text
+from sqlalchemy import String, text
 from .annotations import IDPK, CreatedAt, UpdatedAt
 
 

@@ -33,8 +33,8 @@ class Settings(BaseSettings):
         return f"postgresql+psycopg2://{self.db_user}:{self.db_password}@{self.db_host}:{self.db_port}/{self.db_name}"
     
     
-    def redis_url(self):
-        return f"redis://{self.redis_host}:{self.redis_port}/0"
+    def redis_url(self, db: int = 0):
+        return f"redis://{self.redis_host}:{self.redis_port}/{db}"
     
 
 
