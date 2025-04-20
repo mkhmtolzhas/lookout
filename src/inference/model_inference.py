@@ -6,6 +6,7 @@ from torchvision.models import efficientnet_b4, EfficientNet_B4_Weights
 from torchvision import transforms
 from worker.celery_tasks import predict
 from celery.result import AsyncResult
+from worker.celery_app import app
 from src.schemas.model_schema import ModelSchema, ModelResultSchema
 
 
@@ -84,25 +85,28 @@ class ModelInferenceImpl(ModelInference):
         features_list = features.tolist()
 
         task = predict.delay(self.model_path, features_list)
-        if task.status == 'PENDING':
-            return ModelSchema(status="pending", task_id=str(task.id))
-        elif task.status == 'SUCCESS':
-            label, prob = task.result
-            return ModelSchema[ModelResultSchema](status="success", result=ModelResultSchema(prediction=label, confidence=prob), task_id=str(task.id))
-        else:
-            return ModelSchema(status="error", result=task.info, task_id=str(task.id))
+        return ModelSchema(status="pending", task_id=str(task.id))
 
 
     def get_result(self, task_id: str) -> ModelSchema:
-        result = AsyncResult(task_id)
-        
+        result = AsyncResult(id=task_id, app=app)
+
         if result.state == 'PENDING':
-            return ModelSchema(status="pending")
+            return ModelSchema(status="pending", task_id=task_id)
+        elif result.state == 'FAILURE':
+            return ModelSchema(status="failed", result=str(result.info), task_id=task_id)
+        elif result.state == 'STARTED':
+            return ModelSchema(status="processing", task_id=task_id)
         elif result.state == 'SUCCESS':
             label, prob = result.result
-            return ModelSchema[ModelResultSchema](status="success", result=ModelResultSchema(prediction=label, confidence=prob))
+            return ModelSchema(
+                status="success",
+                result=ModelResultSchema(prediction=label, confidence=prob),
+                task_id=task_id
+            )
         else:
-            return ModelSchema(status="error", result=result.info)
+            return ModelSchema(status="error", result=result.info, task_id=task_id)
+
 
 
 model_inference = ModelInferenceImpl(model_path="models/best_model.pt")
