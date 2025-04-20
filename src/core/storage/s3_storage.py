@@ -1,4 +1,4 @@
-from typing import AsyncGenerator
+
 from .storage import Storage
 from io import BytesIO
 from src.core.config import settings
@@ -27,7 +27,6 @@ class S3Storage(Storage):
 
     def _upload_file(self, file: BytesIO, file_name: str):
         try:
-            file.seek(0)  # Убедимся, что позиция в файле правильная
             self.s3_client.upload_fileobj(file, self.bucket_name, file_name)
         except Exception as e:
             raise
