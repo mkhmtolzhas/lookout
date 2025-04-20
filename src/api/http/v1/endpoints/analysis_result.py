@@ -117,15 +117,15 @@ async def list_analysis_results(
     
 
 @router.get("/videos/{video_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[AnalysisResultResponse]])
-async def get_analysis_result_by_video_id(
+async def get_analysis_results_by_video_id(
     video_id: int,
     use_case: AnalysisResultUseCase = Depends(get_analysis_result_use_case),
 ) -> AnalysisResultResponse:
     """
-    Retrieve an analysis result by video ID.
+    Retrieve analysis results by video ID.
     """
     try:
-        analysis_result = await use_case.get_analysis_result_by_fields(video_id=video_id)
+        analysis_result = await use_case.get_analysis_results_by_fields(video_id=video_id)
         if not analysis_result:
             raise HTTPException(status_code=404, detail="Analysis result not found")
         return GeneralResponse[List[AnalysisResultResponse]](

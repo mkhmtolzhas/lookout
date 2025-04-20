@@ -33,8 +33,13 @@ class PaymentUseCase(ABC):
         pass
 
     @abstractmethod
-    async def get_payment_by_fields(self, **kwargs) -> Optional[List[PaymentResponse]]:
+    async def get_payment_by_fields(self, **kwargs) -> Optional[PaymentResponse]:
         """Retrieve a payment by specific fields."""
+        pass
+
+    @abstractmethod
+    async def get_payments_by_fields(self, **kwargs) -> Optional[List[PaymentResponse]]:
+        """Retrieve payments by specific fields."""
         pass
 
     
@@ -61,8 +66,12 @@ class PaymentUseCaseImpl(PaymentUseCase):
     async def list_payments(self, page: int = 1, limit: int = 10) -> List[PaymentResponse]:
         return await self.repository.list(limit=limit, offset=(page - 1) * limit)
     
-    async def get_payment_by_fields(self, **kwargs) -> Optional[List[PaymentResponse]]:
+    async def get_payment_by_fields(self, **kwargs) -> Optional[PaymentResponse]:
         return await self.repository.get_by_fields(**kwargs)
+    
+    async def get_payments_by_fields(self, **kwargs) -> Optional[List[PaymentResponse]]:
+        return await self.repository.get_all_by_fields(**kwargs)
+    
     
     
 

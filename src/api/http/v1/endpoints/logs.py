@@ -113,15 +113,15 @@ async def list_logs(
     
 
 @router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[LogsResponse]])
-async def get_log_by_fields(
+async def get_logs_by_fields(
     user_id: int,
     use_case: LogsUseCase = Depends(get_logs_use_case),
 ) -> GeneralResponse[LogsResponse]:
     """
-    Retrieve a log entry by specific fields.
+    Retrieve logs by specific fields.
     """
     try:
-        log = await use_case.get_log_by_fields(user_id=user_id)
+        log = await use_case.get_logs_by_fields(user_id=user_id)
         if not log:
             raise HTTPException(status_code=404, detail="Log not found")
         return GeneralResponse[List[LogsResponse]](

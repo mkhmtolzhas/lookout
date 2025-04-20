@@ -76,6 +76,13 @@ class UserRepository(Repository):
             if user:
                 return model_to_schema(user, UserInDB)
             return None
-
+    
+    async def get_all_by_fields(self, **kwargs) -> List[UserResponse]:
+        """Retrieve a user by specific fields."""
+        async with self.connection_pool() as session:
+            query = select(self.model).filter_by(**kwargs)
+            result = await session.execute(query)
+            users = result.scalars().all()
+            return [model_to_schema(user, UserResponse) for user in users]
 
 user_repository = UserRepository(postgres.connection_pool_factory(), UserModel)

@@ -34,8 +34,13 @@ class AnalysisResultUseCase(ABC):
         pass
 
     @abstractmethod
-    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[List[AnalysisResultResponse]]:
+    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[AnalysisResultResponse]:
         """Retrieve an analysis result by specific fields."""
+        pass
+
+    @abstractmethod
+    async def get_analysis_results_by_fields(self, **kwargs) -> Optional[List[AnalysisResultResponse]]:
+        """Retrieve analysis results by specific fields."""
         pass
 
 class AnalysisResultUseCaseImpl(AnalysisResultUseCase):
@@ -59,8 +64,11 @@ class AnalysisResultUseCaseImpl(AnalysisResultUseCase):
     async def list_analysis_results(self, page: int = 1, limit: int = 10) -> List[AnalysisResultResponse]:
         return await self.repository.list(limit=limit, offset=(page - 1) * limit)
     
-    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[List[AnalysisResultResponse]]:
+    async def get_analysis_result_by_fields(self, **kwargs) -> Optional[AnalysisResultResponse]:
         return await self.repository.get_by_fields(**kwargs)
+    
+    async def get_analysis_results_by_fields(self, **kwargs) -> Optional[List[AnalysisResultResponse]]:
+        return await self.repository.get_all_by_fields(**kwargs)
     
 
 async def get_analysis_result_use_case() -> AsyncGenerator[AnalysisResultUseCase, None]:

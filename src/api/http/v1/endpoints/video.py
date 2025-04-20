@@ -117,15 +117,15 @@ async def list_videos(
     
 
 @router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[VideoResponse]])
-async def get_video_by_user(
+async def get_videos_by_user(
     user_id: int,
     use_case: VideoUseCase = Depends(get_video_use_case),
 ) -> VideoResponse:
     """
-    Retrieve a video by user ID.
+    Retrieve videos by user ID.
     """
     try:
-        video = await use_case.get_video_by_fields(user_id=user_id)
+        video = await use_case.get_videos_by_fields(user_id=user_id)
         if not video:
             raise HTTPException(status_code=404, detail="Video not found")
         return GeneralResponse[List[VideoResponse]](

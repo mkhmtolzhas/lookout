@@ -1,0 +1,33 @@
+2025-04-20 04:59:12,821 - INFO - Starting up the application...
+2025-04-20 04:59:12,830 - INFO - Application started up successfully.
+2025-04-20 04:59:14,942 - INFO - Request: GET http://127.0.0.1:8000/
+2025-04-20 04:59:14,943 - INFO - Response: 404
+2025-04-20 04:59:14,976 - INFO - Request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-20 04:59:14,976 - INFO - Response: 404
+2025-04-20 04:59:18,629 - INFO - Request: GET http://127.0.0.1:8000/docs
+2025-04-20 04:59:18,630 - INFO - Response: 200
+2025-04-20 04:59:18,701 - INFO - Request: GET http://127.0.0.1:8000/openapi.json
+2025-04-20 04:59:18,712 - INFO - Response: 200
+2025-04-20 04:59:23,210 - INFO - Request: POST http://127.0.0.1:8000/api/v1/auth/refresh
+2025-04-20 04:59:23,211 - INFO - Response: 200
+2025-04-20 04:59:32,099 - INFO - Request: GET http://127.0.0.1:8000/api/v1/payment/users/1
+2025-04-20 04:59:32,106 - INFO - Response: 200
+2025-04-20 04:59:40,550 - INFO - Request: GET http://127.0.0.1:8000/api/v1/logs/users/1
+2025-04-20 04:59:40,553 - INFO - Response: 200
+2025-04-20 04:59:56,796 - INFO - Request: GET http://127.0.0.1:8000/api/v1/video/users/1
+2025-04-20 04:59:56,798 - INFO - Response: 200
+2025-04-20 05:00:19,527 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 05:00:19,531 - INFO - Response: 400
+2025-04-20 05:00:29,256 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/?page=1&limit=10
+2025-04-20 05:00:29,258 - INFO - Response: 200
+2025-04-20 05:00:33,162 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 05:00:33,164 - INFO - Response: 400
+2025-04-20 05:00:33,268 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/1
+2025-04-20 05:00:33,270 - INFO - Response: 400
+2025-04-20 05:00:55,807 - INFO - Request: POST http://127.0.0.1:8000/api/v1/analysis/
+2025-04-20 05:00:55,819 - INFO - Response: 200
+2025-04-20 05:01:04,229 - INFO - Request: GET http://127.0.0.1:8000/api/v1/analysis/videos/2
+2025-04-20 05:01:04,231 - INFO - Response: 200
+2025-04-20 05:01:16,034 - INFO - Shutting down the application...
+2025-04-20 05:01:16,040 - INFO - Disconnected from the database
+2025-04-20 05:01:16,040 - INFO - Application shut down successfully.

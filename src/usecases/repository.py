@@ -15,6 +15,10 @@ class Repository(Protocol):
         """Retrieve an object by specific fields."""
         pass
 
+    async def get_all_by_fields(self, **kwargs) -> List[BaseModel]:
+        """Retrieve an object by specific fields."""
+        pass
+
     async def update(self, obj_id: int, obj: BaseModel) -> BaseModel:
         """Update an existing object in the repository."""
         pass

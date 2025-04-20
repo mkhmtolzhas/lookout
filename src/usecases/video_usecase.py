@@ -36,7 +36,12 @@ class VideoUseCase(ABC):
         pass
 
     @abstractmethod
-    async def get_video_by_fields(self, **kwargs) -> Optional[List[VideoResponse]]:
+    async def get_videos_by_fields(self, **kwargs) -> Optional[List[VideoResponse]]:
+        """Retrieve a video by specific fields."""
+        pass
+
+    @abstractmethod
+    async def get_video_by_fields(self, **kwargs) -> Optional[VideoResponse]:
         """Retrieve a video by specific fields."""
         pass
 
@@ -67,6 +72,9 @@ class VideoUseCaseImpl(VideoUseCase):
 
     async def list_videos(self, page: int = 1, limit: int = 10) -> List[VideoResponse]:
         return await self.repository.list(limit=limit, offset=(page - 1) * limit)
+    
+    async def get_videos_by_fields(self, **kwargs) -> Optional[List[VideoResponse]]:
+        return await self.repository.get_all_by_fields(**kwargs)
     
     async def get_video_by_fields(self, **kwargs) -> Optional[VideoResponse]:
         return await self.repository.get_by_fields(**kwargs)

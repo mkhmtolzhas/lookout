@@ -114,15 +114,15 @@ async def list_payments(
     
 
 @router.get("/users/{user_id}", dependencies=[Depends(security.access_token_required)], response_model=GeneralResponse[List[PaymentResponse]])
-async def get_payment_by_fields(
+async def get_payments_by_fields(
     user_id: int,
     use_case: PaymentUseCase = Depends(get_payment_use_case),
 ) -> PaymentResponse:
     """
-    Retrieve a payment by specific fields.
+    Retrieve payments by user ID.
     """
     try:
-        payment = await use_case.get_payment_by_fields(user_id=user_id)
+        payment = await use_case.get_payments_by_fields(user_id=user_id)
         if not payment:
             raise HTTPException(status_code=404, detail="Payment not found")
         return GeneralResponse[List[PaymentResponse]](

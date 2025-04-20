@@ -67,7 +67,17 @@ class VideoRepository(Repository):
             videos = result.scalars().all()
             return [model_to_schema(video, VideoResponse) for video in videos]
         
-    async def get_by_fields(self, **kwargs) -> List[VideoResponse]:
+    async def get_by_fields(self, **kwargs) -> VideoResponse:
+        """Retrieve a video by specific fields."""
+        async with self.connection_pool() as session:
+            query = select(self.model).filter_by(**kwargs)
+            result = await session.execute(query)
+            video = result.scalars().first()
+            if video:
+                return model_to_schema(video, VideoResponse)
+            return None
+    
+    async def get_all_by_fields(self, **kwargs) -> List[VideoResponse]:
         """Retrieve a video by specific fields."""
         async with self.connection_pool() as session:
             query = select(self.model).filter_by(**kwargs)
