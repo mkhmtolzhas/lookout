@@ -21,13 +21,17 @@ class UserRepository(Repository):
         self.model = model
 
     async def create(self, obj: UserCreate) -> UserResponse:
-        """Create a new user."""
-        async with self.connection_pool() as session:
-            user = self.model(**obj.dict())
-            session.add(user)
-            await session.commit()
-            await session.refresh(user)
-            return model_to_schema(user, UserResponse)
+        try:
+            """Create a new user."""
+            async with self.connection_pool() as session:
+                user = self.model(**obj.dict())
+                session.add(user)
+                await session.commit()
+                await session.refresh(user)
+                return model_to_schema(user, UserResponse)
+        except Exception as e:
+            raise ValueError(f"User already exists")
+
     
     async def get(self, obj_id: int) -> UserResponse:
         """Retrieve a user by ID."""

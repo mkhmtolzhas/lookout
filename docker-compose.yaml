@@ -48,6 +48,26 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+  celery:
+    build:
+      context: .
+    image: api
+    command: celery -A worker.celery_app worker --loglevel=info -Q video_analysis
+    depends_on:
+      redis:
+        condition: service_healthy
+      api:
+        condition: service_started
+    environment:
+      DB_HOST: database
+      DB_PORT: 5432
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+
+  
 
 volumes:
   db_data:

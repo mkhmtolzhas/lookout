@@ -4,6 +4,8 @@ from typing import List
 from .lifespan import lifespan
 from src.api.http.api_router import router as api_router
 from src.core.logger.logger import logger, Logger
+from authx.exceptions import MissingTokenError
+from .handlers import missing_token_handler
 
 class AppCreator:
     def __init__(self, lifespan: callable) -> None:
@@ -31,6 +33,13 @@ class AppCreator:
             response = await call_next(request)
             logger.info(f"Response: {response.status_code}")
             return response
+    
+    def add_exception_handler(self, exception: type[Exception], handler: callable) -> None:
+        self._app.add_exception_handler(exception, handler)
+
+        
+            
+
         
         
 
@@ -38,3 +47,7 @@ app_creator = AppCreator(lifespan=lifespan)
 app_creator.add_router(api_router)
 app_creator.add_cors(allow_origins=["*"])
 app_creator.add_logging(logger)
+app_creator.add_exception_handler(
+    MissingTokenError,
+    missing_token_handler
+)

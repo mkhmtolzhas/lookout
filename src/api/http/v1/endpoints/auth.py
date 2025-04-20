@@ -5,6 +5,7 @@ from src.schemas.user_schema import UserCreate, UserLogin, UserResponse
 from src.usecases.user_usecase import UserUseCase, get_user_use_case
 from src.api.http.dependencies import security
 from src.schemas.responses.auth_response import AuthResponse, RefreshResponse
+from src.api.http.exceptions import NotFoundException, BadRequestException, UnauthorizedException, ForbiddenException, InternalServerErrorException
 
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -18,7 +19,7 @@ async def login(
     try:
         user = await use_case.login_user(user=user)
         if not user:
-            raise HTTPException(status_code=400, detail="Invalid credentials")
+            raise AttributeError("Invalid credentials")
         
         current_user = await use_case.get_user_by_fields(email=user.email)
 
@@ -54,6 +55,8 @@ async def login(
             access_token=access_token,
             refresh_token=refresh_token,
         )
+    except AttributeError as e:
+        raise UnauthorizedException(status_code=401, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -70,7 +73,7 @@ async def register(
     try:
         new_user = await use_case.create_user(user)
         if not new_user:
-            raise HTTPException(status_code=400, detail="User already exists")
+            raise ValueError("User already exists")
         
         access_token = security.create_access_token(
             uid=new_user.email,
@@ -103,6 +106,8 @@ async def register(
             access_token=access_token,
             refresh_token=refresh_token,
         )
+    except ValueError as e:
+        raise BadRequestException(status_code=400, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
     
@@ -153,7 +158,9 @@ async def refresh(request: Request, response: Response, refresh_data: RefreshBod
             secure=True,
             samesite="strict"
         )
-        return {"access_token": access_token}
+        return RefreshResponse(
+            access_token=access_token,
+        )
     except Exception as e:
         raise HTTPException(status_code=401, detail=str(e))
 
@@ -170,7 +177,8 @@ async def get_user_info(
         user_info = await use_case.get_user_by_fields(email=user.sub)
         if not user_info:
             raise HTTPException(status_code=404, detail="User not found")
-        
         return user_info
+    except AttributeError as e:
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=401, detail=str(e))
+        raise HTTPException(status_code=400, detail=str(e))
