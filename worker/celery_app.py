@@ -19,6 +19,7 @@ app.conf.update(
     task_default_routing_key='video_analysis',
     task_always_eager=False,
     task_eager_propagates=False,
+    worker_concurrency=1,
 )
 
 

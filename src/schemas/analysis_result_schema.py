@@ -10,7 +10,10 @@ class AnalysisResultBase(BaseModel):
     """
     video_id: int = Field(..., description="ID of the video associated with the analysis result")
     task_id: str = Field(..., description="ID of the task associated with the analysis result")
-    prediction: str = Field(..., description="Prediction result of the analysis")
+    verdict: str = Field(..., description="Final verdict of the analysis")
+    real_votes: int = Field(..., description="Number of votes for REAL")
+    fake_votes: int = Field(..., description="Number of votes for FAKE")
+    total_frames: int = Field(..., description="Total number of frames processed")
     confidence: float = Field(..., description="Confidence level of the prediction")
 
 class AnalysisResultCreate(AnalysisResultBase):

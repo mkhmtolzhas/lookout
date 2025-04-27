@@ -11,6 +11,8 @@ class ModelSchema(BaseModel, Generic[T]):
 
 
 class ModelResultSchema(BaseModel):
-    prediction: str = Field(..., description="Prediction result")
-    confidence: float = Field(..., description="Confidence level of the prediction")
-
+    verdict: str = Field(..., description="Final verdict of the analysis")
+    real_votes: int = Field(..., description="Number of votes for REAL")
+    fake_votes: int = Field(..., description="Number of votes for FAKE")
+    total_frames: int = Field(..., description="Total number of frames processed")
+    confidence: float = Field(..., description="Confidence level of the analysis")

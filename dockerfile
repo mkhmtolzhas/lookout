@@ -1,28 +1,46 @@
-FROM python:3.13-slim
+# Этап 1: сборка зависимостей
+FROM python:3.13-slim AS builder
 
-# Setting up pg_config
-RUN apt-get update && apt-get install -y libpq-dev gcc
+# Установим системные зависимости для сборки
+RUN apt-get update && apt-get install -y \
+    libgl1 \
+    libglib2.0-0 \
+    gcc \
+    libffi-dev \
+    libpq-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Set the working directory
-WORKDIR /app
-
-# install poetry
+# Установка poetry
 RUN pip install --no-cache-dir poetry
 
-# Copy the poetry files
-COPY pyproject.toml poetry.lock ./
+# Установка зависимостей проекта
+WORKDIR /app
 
-# Install dependencies
+COPY pyproject.toml poetry.lock ./
 RUN poetry config virtualenvs.create false \
     && poetry install --no-interaction --no-ansi --no-root
 
-# Copy the rest of the application code
+# Этап 2: финальный образ
+FROM python:3.13-slim
+
+# Установим только нужные системные библиотеки для работы (без компиляции)
+RUN apt-get update && apt-get install -y \
+    libgl1 \
+    libglib2.0-0 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Копируем только зависимости из билдера
+COPY --from=builder /usr/local/lib/python3.13/site-packages /usr/local/lib/python3.13/site-packages
+COPY --from=builder /usr/local/bin /usr/local/bin
+
+# Копируем код проекта
 COPY . .
 
-
-# Expose the port the app runs on
 ENV PORT=8000
 EXPOSE $PORT
 
-
-CMD alembic upgrade head && gunicorn src.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
+CMD ["sh", "-c", "alembic upgrade head && gunicorn src.main:app --workers 2 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT"]

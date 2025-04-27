@@ -52,7 +52,7 @@ services:
     build:
       context: .
     image: api
-    command: celery -A worker.celery_app worker --loglevel=info -Q video_analysis
+    command: celery -A worker.celery_app worker --loglevel=info -Q video_analysis --pool=solo
     depends_on:
       redis:
         condition: service_healthy

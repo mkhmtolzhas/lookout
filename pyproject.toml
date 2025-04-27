@@ -24,7 +24,9 @@ dependencies = [
     "python-multipart (>=0.0.20,<0.0.21)",
     "torch (>=2.6.0,<3.0.0)",
     "opencv-python (>=4.11.0.86,<5.0.0.0)",
-    "torchvision (>=0.21.0,<0.22.0)"
+    "torchvision (>=0.21.0,<0.22.0)",
+    "scikit-image (>=0.25.2,<0.26.0)",
+    "scipy (>=1.15.2,<2.0.0)"
 ]
 
 [tool.poetry]
