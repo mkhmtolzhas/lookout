@@ -12,6 +12,8 @@ class Settings(BaseSettings):
     # Redis
     redis_host: str
     redis_port: int
+    redis_password: str = None
+    redis_user: str = None
 
     # JWT
     jwt_secret: str
@@ -34,7 +36,7 @@ class Settings(BaseSettings):
     
     
     def redis_url(self, db: int = 0):
-        return f"redis://{self.redis_host}:{self.redis_port}/{db}"
+        return f"redis://{self.redis_user}:{self.redis_password}@{self.redis_host}:{self.redis_port}/{db}"
     
 
 
